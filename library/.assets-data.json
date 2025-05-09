@@ -1,0 +1,568 @@
+{
+  "ad36992f-2556-435e-9d19-10269d7d3f58": {
+    "url": "db://assets/Images",
+    "value": {},
+    "versionCode": 1
+  },
+  "8798a03c-dae5-4f63-9e91-9990ff7c7f4d": {
+    "url": "db://assets/Prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "24009472-38d9-4383-9c4c-a79a136c5f8e": {
+    "url": "db://assets/resources",
+    "value": {},
+    "versionCode": 1
+  },
+  "e00810d0-2391-4f43-adb3-6f1fc325c2de": {
+    "url": "db://assets/Scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "1ad92acb-1826-4088-97f2-682abf33d7d1": {
+    "url": "db://assets/Script",
+    "value": {},
+    "versionCode": 1
+  },
+  "d7e0148d-71a6-4f33-bb39-08cd6bafe258": {
+    "url": "db://assets/Script/functions",
+    "value": {},
+    "versionCode": 1
+  },
+  "5a52acb3-646d-40be-8b37-c7a87ddccf27": {
+    "url": "db://assets/Script/UI",
+    "value": {},
+    "versionCode": 1
+  },
+  "6c39f365-1ac4-4800-bbc7-1acae800e84f": {
+    "url": "db://assets/Script/Utils",
+    "value": {},
+    "versionCode": 1
+  },
+  "2ebf1737-a3f2-4c3b-8ea3-ca2cd364f3ed": {
+    "url": "db://assets/Script/achievement.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "85642636-d390-479e-94af-3511d00756b1": {
+    "url": "db://assets/Script/Defines.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b1ad84b9-caba-4dc8-b076-6fe7526f0aaa": {
+    "url": "db://assets/Script/event.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "6f8c8abd-664a-43a8-a8c6-86c574e2d0c3": {
+    "url": "db://assets/Script/GameManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "26af1a90-2031-40e2-b2fb-23323b15417b": {
+    "url": "db://assets/Script/Life.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "14601ed6-1149-48fc-b912-59123575a957": {
+    "url": "db://assets/Script/property.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "6f0e9da6-3d57-4d0d-9c61-ede270af7b7e": {
+    "url": "db://assets/Script/Talent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a123ccdc-b0a6-4df9-be53-2b646c3ecd1c": {
+    "url": "db://assets/Script/functions/addition.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4613dcd0-aaf9-40b9-b7a1-2257c7fc3ae5": {
+    "url": "db://assets/Script/functions/condition.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8ea86c87-a4e4-4667-b892-c35c46bc7f09": {
+    "url": "db://assets/Script/functions/summary.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "cbaafd3a-6611-4074-a851-ec9b44d72915": {
+    "url": "db://assets/Script/functions/util.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a768409d-765c-4803-a174-b82b2a2b52a1": {
+    "url": "db://assets/Script/UI/AchievementHint.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "286554af-0559-4eb3-b06e-2db6dc746d48": {
+    "url": "db://assets/Script/UI/AchievementItem.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7baef8ea-74b4-4a52-b818-e76f396e9792": {
+    "url": "db://assets/Script/UI/AchievementPanel.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "973867ed-d1a0-4c1f-9771-b155f590f0ed": {
+    "url": "db://assets/Script/UI/DistributePropItem.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b4a3ea11-1034-4f41-92fd-564a436fcadf": {
+    "url": "db://assets/Script/UI/DistributePropPanel.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "13c81e74-c53f-4e1e-8543-4f93b3e5b03d": {
+    "url": "db://assets/Script/UI/LifeTrackItem.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5aab28d7-b5ff-4e1c-933b-142fbdfa229f": {
+    "url": "db://assets/Script/UI/LifeTrackPanel.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "92825e54-3bf6-4ff9-91ee-553164aef828": {
+    "url": "db://assets/Script/UI/PropItem.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c4d7be20-44bf-466b-b6ca-cf4b1906e300": {
+    "url": "db://assets/Script/UI/SelectTalentPanel.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "ff68d38f-e2fe-4a4d-a718-dffc71bcd991": {
+    "url": "db://assets/Script/UI/StartMenuPanel.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "79c45958-376d-48dc-9cdf-f4ac4742085c": {
+    "url": "db://assets/Script/UI/StatisticsItem.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "302153cf-57c4-4409-b716-712bd8914659": {
+    "url": "db://assets/Script/UI/TagItem.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "3512af1f-54ec-4980-8503-2428cbc19468": {
+    "url": "db://assets/Script/UI/TalentItem.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d425434c-4778-420d-83fd-b8f0b93788df": {
+    "url": "db://assets/Script/UI/UIPanel.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "75637a92-b13f-4304-9ce7-c912516a57e8": {
+    "url": "db://assets/Script/Utils/ConfigManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4e3242a2-1ddd-4c8f-bf27-fc77dfcbe245": {
+    "url": "db://assets/Script/Utils/EventMessage.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a9b66532-7af2-4651-a91b-85810ff0c12d": {
+    "url": "db://assets/Images/close.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0a169605-cbf5-4993-b242-a35c712c6f4e": {
+    "url": "db://assets/Images/flower-tag.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "26b19d26-bdc3-4653-96aa-e6e4bf7a72a8": {
+    "url": "db://assets/Images/frame.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5564235b-8e90-4f69-93c6-8c912106adbe": {
+    "url": "db://assets/Images/github-square.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cf157cc5-924f-4854-85db-9ee8b4adc4b5": {
+    "url": "db://assets/Images/home.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5564235b-8e90-4f69-93c6-8c912106adbe@6c48a": {
+    "url": "db://assets/Images/github-square.png@6c48a",
+    "value": {
+      "depends": [
+        "5564235b-8e90-4f69-93c6-8c912106adbe"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a9b66532-7af2-4651-a91b-85810ff0c12d@6c48a": {
+    "url": "db://assets/Images/close.png@6c48a",
+    "value": {
+      "depends": [
+        "a9b66532-7af2-4651-a91b-85810ff0c12d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "26b19d26-bdc3-4653-96aa-e6e4bf7a72a8@6c48a": {
+    "url": "db://assets/Images/frame.png@6c48a",
+    "value": {
+      "depends": [
+        "26b19d26-bdc3-4653-96aa-e6e4bf7a72a8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0a169605-cbf5-4993-b242-a35c712c6f4e@6c48a": {
+    "url": "db://assets/Images/flower-tag.png@6c48a",
+    "value": {
+      "depends": [
+        "0a169605-cbf5-4993-b242-a35c712c6f4e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5564235b-8e90-4f69-93c6-8c912106adbe@f9941": {
+    "url": "db://assets/Images/github-square.png@f9941",
+    "value": {
+      "depends": [
+        "5564235b-8e90-4f69-93c6-8c912106adbe@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1a83d182-4ae4-4710-85f8-5ea7d3dd6623": {
+    "url": "db://assets/Images/round-frame.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a9b66532-7af2-4651-a91b-85810ff0c12d@f9941": {
+    "url": "db://assets/Images/close.png@f9941",
+    "value": {
+      "depends": [
+        "a9b66532-7af2-4651-a91b-85810ff0c12d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3131770b-0b8f-4556-baef-2d9bf83e0a58": {
+    "url": "db://assets/Prefab/AchievementItem.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "1a83d182-4ae4-4710-85f8-5ea7d3dd6623@f9941",
+        "0a169605-cbf5-4993-b242-a35c712c6f4e@f9941"
+      ],
+      "dependScripts": [
+        "286554af-0559-4eb3-b06e-2db6dc746d48"
+      ]
+    },
+    "versionCode": 1
+  },
+  "26b19d26-bdc3-4653-96aa-e6e4bf7a72a8@f9941": {
+    "url": "db://assets/Images/frame.png@f9941",
+    "value": {
+      "depends": [
+        "26b19d26-bdc3-4653-96aa-e6e4bf7a72a8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0a169605-cbf5-4993-b242-a35c712c6f4e@f9941": {
+    "url": "db://assets/Images/flower-tag.png@f9941",
+    "value": {
+      "depends": [
+        "0a169605-cbf5-4993-b242-a35c712c6f4e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5b044f68-06d3-48c4-ae68-e576c6cce688": {
+    "url": "db://assets/Prefab/DistributePropItem.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941"
+      ],
+      "dependScripts": [
+        "973867ed-d1a0-4c1f-9771-b155f590f0ed"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c172a56f-af44-4eb7-9594-3506ab18f130": {
+    "url": "db://assets/Prefab/LifeTrackItem.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "f12a23c4-b924-4322-a260-3d982428f1e8@f9941"
+      ],
+      "dependScripts": [
+        "13c81e74-c53f-4e1e-8543-4f93b3e5b03d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cf157cc5-924f-4854-85db-9ee8b4adc4b5@6c48a": {
+    "url": "db://assets/Images/home.png@6c48a",
+    "value": {
+      "depends": [
+        "cf157cc5-924f-4854-85db-9ee8b4adc4b5"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cf157cc5-924f-4854-85db-9ee8b4adc4b5@f9941": {
+    "url": "db://assets/Images/home.png@f9941",
+    "value": {
+      "depends": [
+        "cf157cc5-924f-4854-85db-9ee8b4adc4b5@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1a9a5f00-4b4f-47d5-a910-2459d6c5d911": {
+    "url": "db://assets/Prefab/PropItem.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+      ],
+      "dependScripts": [
+        "92825e54-3bf6-4ff9-91ee-553164aef828"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1a83d182-4ae4-4710-85f8-5ea7d3dd6623@6c48a": {
+    "url": "db://assets/Images/round-frame.png@6c48a",
+    "value": {
+      "depends": [
+        "1a83d182-4ae4-4710-85f8-5ea7d3dd6623"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1a83d182-4ae4-4710-85f8-5ea7d3dd6623@f9941": {
+    "url": "db://assets/Images/round-frame.png@f9941",
+    "value": {
+      "depends": [
+        "1a83d182-4ae4-4710-85f8-5ea7d3dd6623@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "88c79bed-6e23-4236-a3ce-fa6cacb745e7": {
+    "url": "db://assets/Prefab/StatisticsItem.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "1a83d182-4ae4-4710-85f8-5ea7d3dd6623@f9941"
+      ],
+      "dependScripts": [
+        "79c45958-376d-48dc-9cdf-f4ac4742085c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7efa8d38-c6b9-4bd9-82ae-e365d8ca17c6": {
+    "url": "db://assets/Prefab/TagItem.prefab",
+    "value": {
+      "depends": [],
+      "dependScripts": [
+        "302153cf-57c4-4409-b716-712bd8914659"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0afbdc73-09cd-40a9-9c8b-ad0b30da8542": {
+    "url": "db://assets/Prefab/TalentItem.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "26b19d26-bdc3-4653-96aa-e6e4bf7a72a8@f9941"
+      ],
+      "dependScripts": [
+        "3512af1f-54ec-4980-8503-2428cbc19468"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ae5dc4b9-8654-4e9f-9767-479897f965b2": {
+    "url": "db://assets/resources/achievement.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "68feec33-23ef-4805-98f9-d319ab214072": {
+    "url": "db://assets/resources/age.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3ff90288-eb62-429e-91c0-37d0fc780611": {
+    "url": "db://assets/resources/events.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d31a9b3a-14bc-41eb-8f0d-28e0a7d25bc0": {
+    "url": "db://assets/resources/happy_life.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "988fb50d-f588-4369-b208-8e9987dc084d": {
+    "url": "db://assets/resources/specialthanks.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2f65da67-5104-41fb-88ce-d2120263e0d0": {
+    "url": "db://assets/resources/talents.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d8d979a9-ab10-4364-8074-3ea077dfd434": {
+    "url": "db://assets/Scene/Main.scene",
+    "value": {
+      "depends": [
+        "d8d979a9-ab10-4364-8074-3ea077dfd434",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "7efa8d38-c6b9-4bd9-82ae-e365d8ca17c6",
+        "0afbdc73-09cd-40a9-9c8b-ad0b30da8542",
+        "5b044f68-06d3-48c4-ae68-e576c6cce688",
+        "afc47931-f066-46b0-90be-9fe61f213428@f9941",
+        "ffb88a8f-af62-48f4-8f1d-3cb606443a43@f9941",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "c172a56f-af44-4eb7-9594-3506ab18f130",
+        "1a9a5f00-4b4f-47d5-a910-2459d6c5d911",
+        "cf157cc5-924f-4854-85db-9ee8b4adc4b5@f9941",
+        "5564235b-8e90-4f69-93c6-8c912106adbe@f9941",
+        "3131770b-0b8f-4556-baef-2d9bf83e0a58",
+        "88c79bed-6e23-4236-a3ce-fa6cacb745e7",
+        "a9b66532-7af2-4651-a91b-85810ff0c12d@f9941"
+      ],
+      "dependScripts": [
+        "ff68d38f-e2fe-4a4d-a718-dffc71bcd991",
+        "c4d7be20-44bf-466b-b6ca-cf4b1906e300",
+        "b4a3ea11-1034-4f41-92fd-564a436fcadf",
+        "5aab28d7-b5ff-4e1c-933b-142fbdfa229f",
+        "a768409d-765c-4803-a174-b82b2a2b52a1",
+        "6f8c8abd-664a-43a8-a8c6-86c574e2d0c3",
+        "7baef8ea-74b4-4a52-b818-e76f396e9792"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2d427692-28a7-4141-b718-ab3e07118b22": {
+    "url": "db://assets/resources/defines.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ee1840cf-75ad-4b1c-937a-fd5d94c1ec0b": {
+    "url": "db://assets/scene.scene",
+    "value": {
+      "depends": [
+        "ee1840cf-75ad-4b1c-937a-fd5d94c1ec0b",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "7efa8d38-c6b9-4bd9-82ae-e365d8ca17c6",
+        "0afbdc73-09cd-40a9-9c8b-ad0b30da8542",
+        "5b044f68-06d3-48c4-ae68-e576c6cce688",
+        "afc47931-f066-46b0-90be-9fe61f213428@f9941",
+        "ffb88a8f-af62-48f4-8f1d-3cb606443a43@f9941",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "c172a56f-af44-4eb7-9594-3506ab18f130",
+        "1a9a5f00-4b4f-47d5-a910-2459d6c5d911",
+        "cf157cc5-924f-4854-85db-9ee8b4adc4b5@f9941",
+        "5564235b-8e90-4f69-93c6-8c912106adbe@f9941",
+        "3131770b-0b8f-4556-baef-2d9bf83e0a58",
+        "88c79bed-6e23-4236-a3ce-fa6cacb745e7",
+        "a9b66532-7af2-4651-a91b-85810ff0c12d@f9941",
+        "d8d979a9-ab10-4364-8074-3ea077dfd434"
+      ],
+      "dependScripts": [
+        "ff68d38f-e2fe-4a4d-a718-dffc71bcd991",
+        "c4d7be20-44bf-466b-b6ca-cf4b1906e300",
+        "b4a3ea11-1034-4f41-92fd-564a436fcadf",
+        "5aab28d7-b5ff-4e1c-933b-142fbdfa229f",
+        "a768409d-765c-4803-a174-b82b2a2b52a1",
+        "6f8c8abd-664a-43a8-a8c6-86c574e2d0c3",
+        "7baef8ea-74b4-4a52-b818-e76f396e9792"
+      ]
+    },
+    "versionCode": 1
+  },
+  "07e0912a-82c8-4287-b394-732e211e586a": {
+    "url": "db://assets/scene-001.scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "d7f5e2d9-aeb6-43cc-b5b0-6f708ba86c0a": {
+    "url": "db://assets/scene-002.scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "2bf3e928-8813-425c-9eca-70038b341032": {
+    "url": "db://assets/scene-003.scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "3cdc733e-4534-44fa-bea6-2c6c5543c6b7": {
+    "url": "db://assets/scene-004.scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "c1f60c04-a982-4046-811a-f312693b9475": {
+    "url": "db://assets/scene-005.scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "ba273ce6-c55f-4525-adc8-cc2bda8fee9b": {
+    "url": "db://assets/scene-006.scene",
+    "value": {},
+    "versionCode": 1
+  }
+}

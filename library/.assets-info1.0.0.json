@@ -1,0 +1,441 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "D:\\NinjaLoop\\assets\\Images": {
+      "time": 1745918026065.0725,
+      "uuid": "ad36992f-2556-435e-9d19-10269d7d3f58"
+    },
+    "D:\\NinjaLoop\\assets\\Prefab": {
+      "time": 1745918026620.8074,
+      "uuid": "8798a03c-dae5-4f63-9e91-9990ff7c7f4d"
+    },
+    "D:\\NinjaLoop\\assets\\resources": {
+      "time": 1746011548071.2512,
+      "uuid": "24009472-38d9-4383-9c4c-a79a136c5f8e"
+    },
+    "D:\\NinjaLoop\\assets\\Scene": {
+      "time": 1745918026689.7793,
+      "uuid": "e00810d0-2391-4f43-adb3-6f1fc325c2de"
+    },
+    "D:\\NinjaLoop\\assets\\Script": {
+      "time": 1746013094490.6265,
+      "uuid": "1ad92acb-1826-4088-97f2-682abf33d7d1"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\functions": {
+      "time": 1745918029049.1033,
+      "uuid": "d7e0148d-71a6-4f33-bb39-08cd6bafe258"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI": {
+      "time": 1745918028512.8154,
+      "uuid": "5a52acb3-646d-40be-8b37-c7a87ddccf27"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\Utils": {
+      "time": 1745918028650.2097,
+      "uuid": "6c39f365-1ac4-4800-bbc7-1acae800e84f"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\achievement.ts": {
+      "time": 1745918027072.2488,
+      "uuid": "2ebf1737-a3f2-4c3b-8ea3-ca2cd364f3ed"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\event.ts": {
+      "time": 1745918027200.1843,
+      "uuid": "b1ad84b9-caba-4dc8-b076-6fe7526f0aaa"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\GameManager.ts": {
+      "time": 1745918026846.9497,
+      "uuid": "6f8c8abd-664a-43a8-a8c6-86c574e2d0c3"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\Life.ts": {
+      "time": 1745918026925.5408,
+      "uuid": "26af1a90-2031-40e2-b2fb-23323b15417b"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\property.ts": {
+      "time": 1745918027377.3208,
+      "uuid": "14601ed6-1149-48fc-b912-59123575a957"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\Talent.ts": {
+      "time": 1745918026957.196,
+      "uuid": "6f0e9da6-3d57-4d0d-9c61-ede270af7b7e"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\functions\\addition.ts": {
+      "time": 1745918028746.1519,
+      "uuid": "a123ccdc-b0a6-4df9-be53-2b646c3ecd1c"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\functions\\condition.ts": {
+      "time": 1745918028828.6802,
+      "uuid": "4613dcd0-aaf9-40b9-b7a1-2257c7fc3ae5"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\functions\\summary.ts": {
+      "time": 1745918028935.0066,
+      "uuid": "8ea86c87-a4e4-4667-b892-c35c46bc7f09"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\functions\\util.ts": {
+      "time": 1745918029038.7854,
+      "uuid": "cbaafd3a-6611-4074-a851-ec9b44d72915"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\AchievementHint.ts": {
+      "time": 1745918027502.1265,
+      "uuid": "a768409d-765c-4803-a174-b82b2a2b52a1"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\AchievementItem.ts": {
+      "time": 1745918027556.2617,
+      "uuid": "286554af-0559-4eb3-b06e-2db6dc746d48"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\AchievementPanel.ts": {
+      "time": 1745918027643.8455,
+      "uuid": "7baef8ea-74b4-4a52-b818-e76f396e9792"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\DistributePropItem.ts": {
+      "time": 1745918027719.069,
+      "uuid": "973867ed-d1a0-4c1f-9771-b155f590f0ed"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\DistributePropPanel.ts": {
+      "time": 1746012150012.5886,
+      "uuid": "b4a3ea11-1034-4f41-92fd-564a436fcadf"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\LifeTrackItem.ts": {
+      "time": 1745918027855.961,
+      "uuid": "13c81e74-c53f-4e1e-8543-4f93b3e5b03d"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\LifeTrackPanel.ts": {
+      "time": 1745918027926.1775,
+      "uuid": "5aab28d7-b5ff-4e1c-933b-142fbdfa229f"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\PropItem.ts": {
+      "time": 1745918028014.6106,
+      "uuid": "92825e54-3bf6-4ff9-91ee-553164aef828"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\SelectTalentPanel.ts": {
+      "time": 1745918028096.0603,
+      "uuid": "c4d7be20-44bf-466b-b6ca-cf4b1906e300"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\StartMenuPanel.ts": {
+      "time": 1745918028162.7742,
+      "uuid": "ff68d38f-e2fe-4a4d-a718-dffc71bcd991"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\StatisticsItem.ts": {
+      "time": 1745918028219.4841,
+      "uuid": "79c45958-376d-48dc-9cdf-f4ac4742085c"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\TagItem.ts": {
+      "time": 1745918028303.696,
+      "uuid": "302153cf-57c4-4409-b716-712bd8914659"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\TalentItem.ts": {
+      "time": 1745918028414.1204,
+      "uuid": "3512af1f-54ec-4980-8503-2428cbc19468"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\UIPanel.ts": {
+      "time": 1745918028502.6653,
+      "uuid": "d425434c-4778-420d-83fd-b8f0b93788df"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\Utils\\ConfigManager.ts": {
+      "time": 1745918028582.0771,
+      "uuid": "75637a92-b13f-4304-9ce7-c912516a57e8"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\Utils\\EventMessage.ts": {
+      "time": 1745918028644.008,
+      "uuid": "4e3242a2-1ddd-4c8f-bf27-fc77dfcbe245"
+    },
+    "D:\\NinjaLoop\\assets\\Images.meta": {
+      "time": 1745918988806.2542
+    },
+    "D:\\NinjaLoop\\assets\\Prefab.meta": {
+      "time": 1745918988808.2507
+    },
+    "D:\\NinjaLoop\\assets\\resources.meta": {
+      "time": 1745918988810.2507
+    },
+    "D:\\NinjaLoop\\assets\\Scene.meta": {
+      "time": 1745918988812.276
+    },
+    "D:\\NinjaLoop\\assets\\Script.meta": {
+      "time": 1745918988813.2727
+    },
+    "D:\\NinjaLoop\\assets\\Script\\functions.meta": {
+      "time": 1745918988830.8088
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI.meta": {
+      "time": 1745918988833.811
+    },
+    "D:\\NinjaLoop\\assets\\Script\\Utils.meta": {
+      "time": 1745918988835.808
+    },
+    "D:\\NinjaLoop\\assets\\Script\\achievement.ts.meta": {
+      "time": 1745918988847.3416
+    },
+    "D:\\NinjaLoop\\assets\\Script\\event.ts.meta": {
+      "time": 1745918988852.8625
+    },
+    "D:\\NinjaLoop\\assets\\Script\\GameManager.ts.meta": {
+      "time": 1745918988853.86
+    },
+    "D:\\NinjaLoop\\assets\\Script\\Life.ts.meta": {
+      "time": 1745918988854.8596
+    },
+    "D:\\NinjaLoop\\assets\\Script\\property.ts.meta": {
+      "time": 1745918988861.8684
+    },
+    "D:\\NinjaLoop\\assets\\Script\\Talent.ts.meta": {
+      "time": 1745918988865.8667
+    },
+    "D:\\NinjaLoop\\assets\\Script\\functions\\addition.ts.meta": {
+      "time": 1745918988866.87
+    },
+    "D:\\NinjaLoop\\assets\\Script\\functions\\condition.ts.meta": {
+      "time": 1745918988867.8684
+    },
+    "D:\\NinjaLoop\\assets\\Script\\functions\\summary.ts.meta": {
+      "time": 1745918988869.261
+    },
+    "D:\\NinjaLoop\\assets\\Script\\functions\\util.ts.meta": {
+      "time": 1745918988879.827
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\AchievementHint.ts.meta": {
+      "time": 1745918988883.3323
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\AchievementItem.ts.meta": {
+      "time": 1745918988887.342
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\AchievementPanel.ts.meta": {
+      "time": 1745918988888.3438
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\DistributePropItem.ts.meta": {
+      "time": 1745918988890.3423
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\DistributePropPanel.ts.meta": {
+      "time": 1745918988895.567
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\LifeTrackItem.ts.meta": {
+      "time": 1745918988898.5679
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\LifeTrackPanel.ts.meta": {
+      "time": 1745918988900.5662
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\PropItem.ts.meta": {
+      "time": 1745918988902.5637
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\SelectTalentPanel.ts.meta": {
+      "time": 1745918988903.5618
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\StartMenuPanel.ts.meta": {
+      "time": 1745918988908.0798
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\StatisticsItem.ts.meta": {
+      "time": 1745918988911.6035
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\TagItem.ts.meta": {
+      "time": 1745918988915.6458
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\TalentItem.ts.meta": {
+      "time": 1745918988918.646
+    },
+    "D:\\NinjaLoop\\assets\\Script\\UI\\UIPanel.ts.meta": {
+      "time": 1745918988920.151
+    },
+    "D:\\NinjaLoop\\assets\\Script\\Utils\\ConfigManager.ts.meta": {
+      "time": 1745918988924.6692
+    },
+    "D:\\NinjaLoop\\assets\\Script\\Utils\\EventMessage.ts.meta": {
+      "time": 1745918988925.6768
+    },
+    "D:\\NinjaLoop\\assets\\Images\\close.png": {
+      "time": 1745918025666.3677,
+      "uuid": "a9b66532-7af2-4651-a91b-85810ff0c12d"
+    },
+    "D:\\NinjaLoop\\assets\\Images\\flower-tag.png": {
+      "time": 1745918025764.858,
+      "uuid": "0a169605-cbf5-4993-b242-a35c712c6f4e"
+    },
+    "D:\\NinjaLoop\\assets\\Images\\frame.png": {
+      "time": 1745918025833.6794,
+      "uuid": "26b19d26-bdc3-4653-96aa-e6e4bf7a72a8"
+    },
+    "D:\\NinjaLoop\\assets\\Images\\github-square.png": {
+      "time": 1745918025906.1667,
+      "uuid": "5564235b-8e90-4f69-93c6-8c912106adbe"
+    },
+    "D:\\NinjaLoop\\assets\\Images\\home.png": {
+      "time": 1745918025964.9746,
+      "uuid": "cf157cc5-924f-4854-85db-9ee8b4adc4b5"
+    },
+    "D:\\NinjaLoop\\assets\\Images\\round-frame.png": {
+      "time": 1745918026057.7805,
+      "uuid": "1a83d182-4ae4-4710-85f8-5ea7d3dd6623"
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\AchievementItem.prefab": {
+      "time": 1745918998105.3542,
+      "uuid": "3131770b-0b8f-4556-baef-2d9bf83e0a58"
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\DistributePropItem.prefab": {
+      "time": 1745918998118.353,
+      "uuid": "5b044f68-06d3-48c4-ae68-e576c6cce688"
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\LifeTrackItem.prefab": {
+      "time": 1745918998118.353,
+      "uuid": "c172a56f-af44-4eb7-9594-3506ab18f130"
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\PropItem.prefab": {
+      "time": 1745918998166.0674,
+      "uuid": "1a9a5f00-4b4f-47d5-a910-2459d6c5d911"
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\StatisticsItem.prefab": {
+      "time": 1745918998166.0674,
+      "uuid": "88c79bed-6e23-4236-a3ce-fa6cacb745e7"
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\TagItem.prefab": {
+      "time": 1745918998483.503,
+      "uuid": "7efa8d38-c6b9-4bd9-82ae-e365d8ca17c6"
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\TalentItem.prefab": {
+      "time": 1745918998486.5015,
+      "uuid": "0afbdc73-09cd-40a9-9c8b-ad0b30da8542"
+    },
+    "D:\\NinjaLoop\\assets\\resources\\achievement.json": {
+      "time": 1745918029124.8708,
+      "uuid": "ae5dc4b9-8654-4e9f-9767-479897f965b2"
+    },
+    "D:\\NinjaLoop\\assets\\resources\\age.json": {
+      "time": 1746704720893.3018,
+      "uuid": "68feec33-23ef-4805-98f9-d319ab214072"
+    },
+    "D:\\NinjaLoop\\assets\\resources\\events.json": {
+      "time": 1746704641429.2366,
+      "uuid": "3ff90288-eb62-429e-91c0-37d0fc780611"
+    },
+    "D:\\NinjaLoop\\assets\\resources\\happy_life.json": {
+      "time": 1745918029370.6155,
+      "uuid": "d31a9b3a-14bc-41eb-8f0d-28e0a7d25bc0"
+    },
+    "D:\\NinjaLoop\\assets\\resources\\specialthanks.json": {
+      "time": 1745918029514.9902,
+      "uuid": "988fb50d-f588-4369-b208-8e9987dc084d"
+    },
+    "D:\\NinjaLoop\\assets\\resources\\talents.json": {
+      "time": 1745918029579.9014,
+      "uuid": "2f65da67-5104-41fb-88ce-d2120263e0d0"
+    },
+    "D:\\NinjaLoop\\assets\\Scene\\Main.scene": {
+      "time": 1746012055932.601,
+      "uuid": "d8d979a9-ab10-4364-8074-3ea077dfd434"
+    },
+    "D:\\NinjaLoop\\assets\\Images\\github-square.png.meta": {
+      "time": 1745918998050.2969
+    },
+    "D:\\NinjaLoop\\assets\\Images\\close.png.meta": {
+      "time": 1745918998053.296
+    },
+    "D:\\NinjaLoop\\assets\\Images\\frame.png.meta": {
+      "time": 1745918998055.2996
+    },
+    "D:\\NinjaLoop\\assets\\Images\\flower-tag.png.meta": {
+      "time": 1745918998057.308
+    },
+    "D:\\NinjaLoop\\assets\\Images\\home.png.meta": {
+      "time": 1745918998091.8354
+    },
+    "D:\\NinjaLoop\\assets\\Images\\round-frame.png.meta": {
+      "time": 1745918998099.8364
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\AchievementItem.prefab.meta": {
+      "time": 1745918998113.354
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\LifeTrackItem.prefab.meta": {
+      "time": 1745918998125.3555
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\DistributePropItem.prefab.meta": {
+      "time": 1745918998127.8733
+    },
+    "D:\\NinjaLoop\\assets\\resources\\achievement.json.meta": {
+      "time": 1745918998167.0654
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\PropItem.prefab.meta": {
+      "time": 1745918998172.0642
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\StatisticsItem.prefab.meta": {
+      "time": 1745918998175.067
+    },
+    "D:\\NinjaLoop\\assets\\resources\\happy_life.json.meta": {
+      "time": 1745918998485.5034
+    },
+    "D:\\NinjaLoop\\assets\\resources\\events.json.meta": {
+      "time": 1745918998488.5044
+    },
+    "D:\\NinjaLoop\\assets\\resources\\age.json.meta": {
+      "time": 1745918998490.504
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\TagItem.prefab.meta": {
+      "time": 1745918998506.1377
+    },
+    "D:\\NinjaLoop\\assets\\Prefab\\TalentItem.prefab.meta": {
+      "time": 1745918998520.9521
+    },
+    "D:\\NinjaLoop\\assets\\resources\\specialthanks.json.meta": {
+      "time": 1745918998545.4917
+    },
+    "D:\\NinjaLoop\\assets\\resources\\talents.json.meta": {
+      "time": 1745918998547.4927
+    },
+    "D:\\NinjaLoop\\assets\\Scene\\Main.scene.meta": {
+      "time": 1746012052403.318
+    },
+    "D:\\NinjaLoop\\assets\\resources\\defines.json.meta": {
+      "time": 1746011548095.288
+    },
+    "D:\\NinjaLoop\\assets\\resources\\defines.json": {
+      "time": 1746696193385.006,
+      "uuid": "2d427692-28a7-4141-b718-ab3e07118b22"
+    },
+    "D:\\NinjaLoop\\assets\\scene.scene.meta": {
+      "time": 1746012070019.6416
+    },
+    "D:\\NinjaLoop\\assets\\scene.scene": {
+      "time": 1746012074459.2239,
+      "uuid": "ee1840cf-75ad-4b1c-937a-fd5d94c1ec0b"
+    },
+    "D:\\NinjaLoop\\assets\\Script\\Defines.ts.meta": {
+      "time": 1745918988851.3425
+    },
+    "D:\\NinjaLoop\\assets\\Script\\Defines.ts": {
+      "time": 1746522374256.2888,
+      "uuid": "85642636-d390-479e-94af-3511d00756b1"
+    }
+  },
+  "missing": {
+    "ba273ce6-c55f-4525-adc8-cc2bda8fee9b": {
+      "path": "D:\\NinjaLoop\\assets\\scene-006.scene",
+      "time": 1746012195151.6963,
+      "removeTime": 1746012328920
+    },
+    "2bf3e928-8813-425c-9eca-70038b341032": {
+      "path": "D:\\NinjaLoop\\assets\\scene-003.scene",
+      "time": 1746012091989.229,
+      "removeTime": 1746012335306
+    },
+    "3cdc733e-4534-44fa-bea6-2c6c5543c6b7": {
+      "path": "D:\\NinjaLoop\\assets\\scene-004.scene",
+      "time": 1746012102678.9822,
+      "removeTime": 1746012335308
+    },
+    "c1f60c04-a982-4046-811a-f312693b9475": {
+      "path": "D:\\NinjaLoop\\assets\\scene-005.scene",
+      "time": 1746012119455.2378,
+      "removeTime": 1746012335992
+    },
+    "d7f5e2d9-aeb6-43cc-b5b0-6f708ba86c0a": {
+      "path": "D:\\NinjaLoop\\assets\\scene-002.scene",
+      "time": 1746012087508.958,
+      "removeTime": 1746012336009
+    },
+    "07e0912a-82c8-4287-b394-732e211e586a": {
+      "path": "D:\\NinjaLoop\\assets\\scene-001.scene",
+      "time": 1746012079738.3103,
+      "removeTime": 1746012336014
+    },
+    "85642636-d390-479e-94af-3511d00756b1": {
+      "path": "D:\\NinjaLoop\\assets\\Script\\Defines.ts",
+      "time": 1745918026787.6,
+      "removeTime": 1746013059329
+    }
+  }
+}

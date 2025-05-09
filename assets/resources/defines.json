@@ -1,0 +1,30 @@
+{
+    "Message": {
+        "TalentSelectEnd": "TalentSelectEnd",
+        "DistributePropEnd": "DistributePropEnd",
+        "Replay": "Replay",
+        "StartGame": "StartGame",
+        "Achievement": "Achievement",
+        "StartMenu": "StartMenu"
+    },
+    "ConfigProp": {
+        "CHR": 0,
+        "INT": 1,
+        "STR": 2,
+        "MNY": 3,
+        "SPR": 4
+    },
+    "PropNameMap": {
+        "CHR": "颜值",
+        "INT": "智力",
+        "STR": "体质",
+        "MNY": "家境",
+        "SPR": "精神"
+    },
+    "DistributePropKeys": ["CHR", "INT", "STR", "SPR"],
+    "ShowPropKeys": ["CHR", "INT", "STR", "MNY", "SPR"],
+    "PropConfig": {
+        "InitialPoints": 20,
+        "InitialSPR": 5
+    }
+}
