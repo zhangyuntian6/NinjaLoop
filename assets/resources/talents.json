@@ -1,1334 +1,641 @@
 {
     "1001": {
         "id": "1001",
-        "name": "随身玉佩",
-        "description": "或许有护佑作用",
-        "grade": 0
+        "name": "穿越平民",
+        "description": "穿越到火影世界成为平民，拥有一些现代知识，但初始身体素质普通",
+        "grade": 0,
+        "effect": {
+            "INT": 1,
+            "STR": 0
+        },
+        "exclusive": [
+            "1003",
+            "1005",
+            "1008",
+            "1011"
+        ]
     },
     "1002": {
         "id": "1002",
-        "name": "红肚兜",
-        "description": "小时候死亡率降低",
-        "grade": 0
+        "name": "街头智慧",
+        "description": "在火影村的街头巷尾长大，熟悉各种小道消息和生存技巧",
+        "grade": 1,
+        "effect": {
+            "INT": 1,
+            "SPR": 1
+        },
+        "exclusive": [
+            "1007",
+            "1009",
+            "1016",
+            "1025"
+        ]
     },
     "1003": {
         "id": "1003",
-        "name": "生而为男",
-        "description": "性别一定为男",
+        "name": "体力储备",
+        "description": "长期从事体力劳动，身体素质较好，但可能缺乏灵活应变能力",
         "grade": 1,
+        "effect": {
+            "STR": 2,
+            "INT": -1
+        },
         "exclusive": [
+            "1001",
             "1004",
-            "1025",
-            "1024"
+            "1012",
+            "1023"
         ]
     },
     "1004": {
         "id": "1004",
-        "name": "生而为女",
-        "description": "性别一定为女",
+        "name": "观察力敏锐",
+        "description": "拥有敏锐的观察力，能发现别人忽略的细节，但体力相对较弱",
         "grade": 1,
+        "effect": {
+            "INT": 2,
+            "STR": -1
+        },
         "exclusive": [
             "1003",
-            "1024",
-            "1025"
+            "1019",
+            "1027",
+            "1030"
         ]
     },
     "1005": {
         "id": "1005",
-        "name": "动漫高手",
-        "description": "入宅的可能性翻6倍",
-        "grade": 2
+        "name": "亲和力强",
+        "description": "容易和他人建立良好关系，朋友众多，但可能会在战斗中过于顾及他人",
+        "grade": 1,
+        "effect": {
+            "CHR": 2,
+            "STR": -1
+        },
+        "exclusive": [
+            "1001",
+            "1007",
+            "1016",
+            "1028"
+        ]
     },
     "1006": {
         "id": "1006",
-        "name": "乐观",
-        "description": "快乐+1",
-        "grade": 0,
+        "name": "艺术天赋",
+        "description": "在绘画、音乐等艺术方面有天赋，能缓解压力，但对战斗帮助不大",
+        "grade": 1,
         "effect": {
-            "SPR": 1
-        }
+            "SPR": 2,
+            "STR": -1
+        },
+        "exclusive": [
+            "1007",
+            "1009",
+            "1017",
+            "1026"
+        ]
     },
     "1007": {
         "id": "1007",
-        "name": "天赋异禀",
-        "description": "初始可用属性点+2",
+        "name": "机械达人",
+        "description": "对机械原理有深入了解，能制作一些简单工具，但缺乏战斗经验",
         "grade": 1,
-        "status": 2
+        "effect": {
+            "INT": 2,
+            "SPR": -1
+        },
+        "exclusive": [
+            "1002",
+            "1005",
+            "1006",
+            "1009"
+        ]
     },
     "1008": {
         "id": "1008",
-        "name": "天生抑郁",
-        "description": "快乐-3",
-        "grade": 0,
+        "name": "美食家",
+        "description": "对美食有独特的品味和了解，能从食物中获得快乐，但可能比较懒散",
+        "grade": 1,
         "effect": {
-            "SPR": -3
-        }
+            "SPR": 2,
+            "STR": -1
+        },
+        "exclusive": [
+            "1001",
+            "1013",
+            "1019",
+            "1030"
+        ]
     },
     "1009": {
         "id": "1009",
-        "name": "网络巨魔",
-        "description": "快乐+2",
+        "name": "草药知识",
+        "description": "了解各种草药的功效，能制作简单的药品，但战斗能力不足",
         "grade": 1,
         "effect": {
-            "SPR": 2
-        }
+            "INT": 2,
+            "STR": -1
+        },
+        "exclusive": [
+            "1006",
+            "1007",
+            "1017",
+            "1028"
+        ]
     },
     "1010": {
         "id": "1010",
-        "name": "天龙人",
-        "description": "你拥有北京户口",
-        "grade": 2,
+        "name": "方向感强",
+        "description": "在火影世界中不会迷路，能快速找到目的地，但可能过于依赖方向感",
+        "grade": 1,
         "effect": {
-            "MNY": 1
+            "INT": 1,
+            "SPR": 1
         },
         "exclusive": [
-            "1012",
-            "1013",
-            "1014"
+            "1018",
+            "1026",
+            "1028"
         ]
     },
     "1011": {
         "id": "1011",
-        "name": "独生子女",
-        "description": "你没有兄弟姐妹",
-        "grade": 0
+        "name": "动物之友",
+        "description": "能和动物友好相处，动物会提供一些帮助，但可能会引起他人嫉妒",
+        "grade": 1,
+        "effect": {
+            "CHR": 2,
+            "INT": -1
+        },
+        "exclusive": [
+            "1001",
+            "1012",
+            "1016",
+            "1024"
+        ]
     },
     "1012": {
         "id": "1012",
-        "name": "乡间微风",
-        "description": "你出生在农村",
-        "grade": 0,
+        "name": "记忆力超群",
+        "description": "拥有超强的记忆力，能记住各种知识和信息，但身体素质较差",
+        "grade": 1,
+        "effect": {
+            "INT": 3,
+            "STR": -2
+        },
         "exclusive": [
-            "1010",
-            "1013",
-            "1014"
+            "1003",
+            "1011",
+            "1019",
+            "1027"
         ]
     },
     "1013": {
         "id": "1013",
-        "name": "城中高楼",
-        "description": "你出生在城市",
-        "grade": 0,
+        "name": "运气爆棚",
+        "description": "运气极佳，经常能遇到好事，但可能会过于依赖运气",
+        "grade": 1,
+        "effect": {
+            "SPR": 3,
+            "INT": -1
+        },
         "exclusive": [
-            "1010",
-            "1012",
-            "1014"
+            "1008",
+            "1019",
+            "1022",
+            "1030"
         ]
     },
     "1014": {
         "id": "1014",
-        "name": "美籍华人",
-        "description": "你有美国国籍",
-        "grade": 2,
+        "name": "谈判专家",
+        "description": "擅长谈判和沟通，能解决一些冲突，但战斗能力较弱",
+        "grade": 1,
         "effect": {
-            "MNY": 1
+            "INT": 2,
+            "STR": -1
         },
         "exclusive": [
-            "1010",
-            "1012",
-            "1013"
+            "1003",
+            "1027",
+            "1030"
         ]
     },
     "1015": {
         "id": "1015",
-        "name": "家中老大",
-        "description": "你最受父母宠爱",
-        "grade": 1
+        "name": "表演天赋",
+        "description": "有出色的表演天赋，能迷惑他人，但在真实战斗中可能会露馅",
+        "grade": 1,
+        "effect": {
+            "CHR": 2,
+            "STR": -1
+        },
+        "exclusive": [
+            "1003",
+            "1019",
+            "1027"
+        ]
     },
     "1016": {
         "id": "1016",
-        "name": "水性良好",
-        "description": "不会被淹死",
-        "grade": 0
+        "name": "算数天才",
+        "description": "对数字敏感，擅长算数，在交易中不会吃亏，但缺乏实战经验",
+        "grade": 1,
+        "effect": {
+            "INT": 2,
+            "SPR": -1
+        },
+        "exclusive": [
+            "1002",
+            "1005",
+            "1011",
+            "1024"
+        ]
     },
     "1017": {
         "id": "1017",
-        "name": "先天免疫",
-        "description": "你不会得艾滋病",
-        "grade": 0
+        "name": "手工达人",
+        "description": "擅长手工制作，能制作一些实用物品，但战斗能力不足",
+        "grade": 1,
+        "effect": {
+            "INT": 2,
+            "STR": -1
+        },
+        "exclusive": [
+            "1006",
+            "1009",
+            "1028",
+            "1029"
+        ]
     },
     "1018": {
         "id": "1018",
-        "name": "人类进化",
-        "description": "所有属性+1",
-        "grade": 2,
+        "name": "直觉敏锐",
+        "description": "直觉敏锐，能提前感知危险，但可能会过于相信直觉",
+        "grade": 1,
         "effect": {
-            "SPR": 1,
-            "MNY": 1,
-            "CHR": 1,
-            "STR": 1,
-            "INT": 1
-        }
+            "INT": 1,
+            "SPR": 1
+        },
+        "exclusive": [
+            "1010",
+            "1026",
+            "1028"
+        ]
     },
     "1019": {
         "id": "1019",
-        "name": "超凡",
-        "description": "初始可用属性点+4",
-        "grade": 2,
-        "status": 4
+        "name": "忍耐力强",
+        "description": "拥有强大的忍耐力，能在艰苦环境中生存，但反应可能较慢",
+        "grade": 1,
+        "effect": {
+            "STR": 2,
+            "INT": -1
+        },
+        "exclusive": [
+            "1004",
+            "1008",
+            "1012",
+            "1013"
+        ]
     },
     "1020": {
         "id": "1020",
-        "name": "父母美貌",
-        "description": "颜值+2",
+        "name": "语言天赋",
+        "description": "能快速学习和掌握各种语言，便于交流，但战斗能力一般",
         "grade": 1,
         "effect": {
-            "CHR": 2
-        }
+            "INT": 2,
+            "STR": -1
+        },
+        "exclusive": [
+            "1003",
+            "1019",
+            "1027"
+        ]
     },
     "1021": {
         "id": "1021",
-        "name": "红颜薄命",
-        "description": "颜值+2，体质-2",
-        "grade": 0,
+        "name": "团队协作",
+        "description": "善于团队协作，能发挥团队最大优势，但个人能力可能不突出",
+        "grade": 1,
         "effect": {
-            "CHR": 2,
-            "STR": -2
-        }
+            "INT": 1,
+            "STR": -1
+        },
+        "exclusive": [
+            "1024",
+            "1025",
+            "1026"
+        ]
     },
     "1022": {
         "id": "1022",
-        "name": "属蛇",
-        "description": "不会被蛇咬死",
-        "grade": 0
+        "name": "适应能力强",
+        "description": "能快速适应各种环境，但可能缺乏专注度",
+        "grade": 1,
+        "effect": {
+            "SPR": 2,
+            "INT": -1
+        },
+        "exclusive": [
+            "1013",
+            "1016",
+            "1029"
+        ]
     },
     "1023": {
         "id": "1023",
-        "name": "半神",
-        "description": "所有属性+2",
-        "grade": 3,
+        "name": "策略大师",
+        "description": "擅长制定策略，能在战斗中取得优势，但身体素质较差",
+        "grade": 1,
         "effect": {
-            "SPR": 2,
-            "MNY": 2,
-            "CHR": 2,
-            "STR": 2,
-            "INT": 2
-        }
+            "INT": 3,
+            "STR": -2
+        },
+        "exclusive": [
+            "1003",
+            "1012",
+            "1019",
+            "1027"
+        ]
     },
     "1024": {
         "id": "1024",
-        "name": "人中龙凤",
-        "description": "天生双重性别",
-        "grade": 2,
+        "name": "领导才能",
+        "description": "具有领导才能，能带领团队前进，但可能会过于自负",
+        "grade": 1,
+        "effect": {
+            "CHR": 2,
+            "INT": -1
+        },
         "exclusive": [
-            "1003",
-            "1004",
+            "1011",
+            "1016",
+            "1021",
             "1025"
         ]
     },
     "1025": {
         "id": "1025",
-        "name": "阴阳之外",
-        "description": "天生无性别",
-        "grade": 2,
+        "name": "创新思维",
+        "description": "拥有创新思维，能提出独特的解决方案，但可能不被他人理解",
+        "grade": 1,
+        "effect": {
+            "INT": 2,
+            "SPR": -1
+        },
         "exclusive": [
-            "1003",
+            "1002",
+            "1021",
             "1024",
-            "1004",
-            1113
+            "1026"
         ]
     },
     "1026": {
         "id": "1026",
-        "name": "彩虹之下",
-        "description": "可能和同性交往",
-        "grade": 0,
+        "name": "心理洞察",
+        "description": "能洞察他人心理，在谈判和战斗中占据优势，但可能会过于敏感",
+        "grade": 1,
+        "effect": {
+            "INT": 2,
+            "SPR": -1
+        },
         "exclusive": [
-            "1113"
+            "1006",
+            "1010",
+            "1018",
+            "1021",
+            "1025"
         ]
     },
     "1027": {
         "id": "1027",
-        "name": "斩情证道",
-        "description": "终生不恋爱结婚",
+        "name": "运动天赋",
+        "description": "在运动方面有天赋，身体素质较好，但可能缺乏耐心",
         "grade": 1,
+        "effect": {
+            "STR": 2,
+            "INT": -1
+        },
         "exclusive": [
-            "1113"
+            "1003",
+            "1004",
+            "1012",
+            "1014"
         ]
     },
     "1028": {
         "id": "1028",
-        "name": "桃花连连",
-        "description": "恋爱机会提升",
-        "grade": 0
+        "name": "空间感知",
+        "description": "对空间有敏锐的感知，能在复杂环境中行动自如，但可能会过于自我",
+        "grade": 1,
+        "effect": {
+            "INT": 2,
+            "SPR": -1
+        },
+        "exclusive": [
+            "1005",
+            "1009",
+            "1010",
+            "1018",
+            "1017"
+        ]
     },
     "1029": {
         "id": "1029",
-        "name": "平安童年",
-        "description": "12岁前父母都健在",
-        "grade": 1
+        "name": "时间管理",
+        "description": "擅长时间管理，能高效完成任务，但可能会过于紧张",
+        "grade": 1,
+        "effect": {
+            "INT": 2,
+            "SPR": -1
+        },
+        "exclusive": [
+            "1017",
+            "1022",
+            "1030"
+        ]
     },
     "1030": {
         "id": "1030",
-        "name": "宠物大师",
-        "description": "宠物不会意外死亡",
-        "grade": 0
-    },
-    "1031": {
-        "id": "1031",
-        "name": "天生残疾",
-        "description": "体质-2",
-        "grade": 0,
+        "name": "毅力坚定",
+        "description": "拥有坚定的毅力，能克服各种困难，但可能会过于固执",
+        "grade": 1,
         "effect": {
-            "STR": -2
-        }
-    },
-    "1032": {
-        "id": "1032",
-        "name": "早产儿",
-        "description": "所有属性-1",
-        "grade": 0,
-        "effect": {
-            "SPR": -1,
-            "MNY": -1,
-            "CHR": -1,
-            "STR": -1,
+            "STR": 2,
             "INT": -1
-        }
-    },
-    "1033": {
-        "id": "1033",
-        "name": "十死无生",
-        "description": "体质-10",
-        "grade": 0,
-        "effect": {
-            "STR": -10
-        }
-    },
-    "1034": {
-        "id": "1034",
-        "name": "家运不顺",
-        "description": "家境-2",
-        "grade": 0,
-        "effect": {
-            "MNY": -2
-        }
-    },
-    "1035": {
-        "id": "1035",
-        "name": "头着地",
-        "description": "智力-2",
-        "grade": 0,
-        "effect": {
-            "INT": -2
-        }
-    },
-    "1036": {
-        "id": "1036",
-        "name": "胎教",
-        "description": "智力+1",
-        "grade": 0,
-        "effect": {
-            "INT": 1
-        }
-    },
-    "1037": {
-        "id": "1037",
-        "name": "班中红人",
-        "description": "和同学容易处好关系",
-        "grade": 0
-    },
-    "1038": {
-        "id": "1038",
-        "name": "骑士",
-        "description": "能轻松学会骑车",
-        "grade": 0
-    },
-    "1039": {
-        "id": "1039",
-        "name": "永远的神",
-        "description": "电竞天才",
-        "grade": 1
-    },
-    "1040": {
-        "id": "1040",
-        "name": "戒律",
-        "description": "赌毒不沾",
-        "grade": 0
-    },
-    "1041": {
-        "id": "1041",
-        "name": "丁克",
-        "description": "不生孩子",
-        "grade": 1,
-        "exclusive": [
-            "1113"
-        ]
-    },
-    "1042": {
-        "id": "1042",
-        "name": "少数民族",
-        "description": "高考+5分",
-        "grade": 0
-    },
-    "1043": {
-        "id": "1043",
-        "name": "老司机",
-        "description": "你和家人不会发生车祸",
-        "grade": 0
-    },
-    "1044": {
-        "id": "1044",
-        "name": "低压",
-        "description": "你的家人不会心脏病",
-        "grade": 0
-    },
-    "1045": {
-        "id": "1045",
-        "name": "战功",
-        "description": "你退伍后会当官",
-        "grade": 0
-    },
-    "1046": {
-        "id": "1046",
-        "name": "不孕不育",
-        "description": "你生不出孩子",
-        "grade": 1,
-        "exclusive": [
-            "1113"
-        ]
-    },
-    "1047": {
-        "id": "1047",
-        "name": "白头偕老",
-        "description": "爱人至少能活到70岁",
-        "grade": 1
-    },
-    "1048": {
-        "id": "1048",
-        "name": "神秘的小盒子",
-        "description": "100岁时才能开启",
-        "grade": 3
-    },
-    "1049": {
-        "id": "1049",
-        "name": "三十而立",
-        "description": "30岁时家境+2",
-        "condition": "AGE?[30]",
-        "grade": 0,
-        "effect": {
-            "MNY": 2
-        }
-    },
-    "1050": {
-        "id": "1050",
-        "name": "四十不惑",
-        "description": "40岁时智力+2",
-        "condition": "AGE?[40]",
-        "grade": 0,
-        "effect": {
-            "INT": 2
-        }
-    },
-    "1051": {
-        "id": "1051",
-        "name": "知天命",
-        "description": "50岁时智力、快乐+1",
-        "condition": "AGE?[50]",
-        "grade": 0,
-        "effect": {
-            "SPR": 1,
-            "INT": 1
-        }
-    },
-    "1052": {
-        "id": "1052",
-        "name": "耳顺",
-        "description": "60岁时快乐+2",
-        "condition": "AGE?[60]",
-        "grade": 0,
-        "effect": {
-            "SPR": 2
-        }
-    },
-    "1053": {
-        "id": "1053",
-        "name": "从心所欲",
-        "description": "70岁时快乐+3",
-        "condition": "AGE?[70]",
-        "grade": 0,
-        "effect": {
-            "SPR": 3
-        }
-    },
-    "1054": {
-        "id": "1054",
-        "name": "老当益壮",
-        "description": "60岁时体质+2",
-        "condition": "AGE?[60]",
-        "grade": 1,
-        "effect": {
-            "STR": 2
-        }
-    },
-    "1055": {
-        "id": "1055",
-        "name": "鹤发童颜",
-        "description": "70岁时颜值+3",
-        "condition": "AGE?[70]",
-        "grade": 0,
-        "effect": {
-            "CHR": 3
-        }
-    },
-    "1056": {
-        "id": "1056",
-        "name": "学前启蒙",
-        "description": "5岁时智力+2",
-        "condition": "AGE?[5]",
-        "grade": 1,
-        "effect": {
-            "INT": 2
-        }
-    },
-    "1057": {
-        "id": "1057",
-        "name": "十八变",
-        "description": "18岁时颜值+2",
-        "condition": "AGE?[18]",
-        "grade": 1,
-        "effect": {
-            "CHR": 2
-        }
-    },
-    "1058": {
-        "id": "1058",
-        "name": "迟来之财",
-        "description": "90岁时家境+4",
-        "condition": "AGE?[90]",
-        "grade": 0,
-        "effect": {
-            "MNY": 4
-        }
-    },
-    "1059": {
-        "id": "1059",
-        "name": "理财达人",
-        "description": "40岁时家境+3",
-        "condition": "AGE?[40]",
-        "grade": 0,
-        "effect": {
-            "MNY": 3
-        }
-    },
-    "1060": {
-        "id": "1060",
-        "name": "成熟",
-        "description": "18岁时智力+2",
-        "condition": "AGE?[18]",
-        "grade": 1,
-        "effect": {
-            "INT": 2
-        }
-    },
-    "1061": {
-        "id": "1061",
-        "name": "形象管理",
-        "description": "24岁时颜值+2",
-        "condition": "AGE?[24]",
-        "grade": 1,
-        "effect": {
-            "CHR": 2
-        }
-    },
-    "1062": {
-        "id": "1062",
-        "name": "成年礼",
-        "description": "18岁时快乐+1",
-        "condition": "AGE?[18]",
-        "grade": 0,
-        "effect": {
-            "SPR": 1
-        }
-    },
-    "1063": {
-        "id": "1063",
-        "name": "开光之胎",
-        "description": "初始可用属性点+1",
-        "grade": 0,
-        "status": 1
-    },
-    "1064": {
-        "id": "1064",
-        "name": "天命",
-        "description": "初始可用属性点+8",
-        "grade": 3,
-        "status": 8
-    },
-    "1065": {
-        "id": "1065",
-        "name": "祖传药丸",
-        "description": "功能不明",
-        "grade": 1
-    },
-    "1066": {
-        "id": "1066",
-        "name": "精准扶贫",
-        "description": "家境为0时家境+1",
-        "condition": "(MNY<1)&(MNY>-1)",
-        "grade": 0,
-        "effect": {
-            "MNY": 1
-        }
-    },
-    "1067": {
-        "id": "1067",
-        "name": "乐天派",
-        "description": "快乐为0时快乐+1",
-        "condition": "(SPR<1)&(SPR>-1)",
-        "grade": 1,
-        "effect": {
-            "SPR": 1
-        }
-    },
-    "1068": {
-        "id": "1068",
-        "name": "命悬一线",
-        "description": "体质为0时体质+1",
-        "condition": "(STR<1)&(STR>-1)",
-        "grade": 0,
-        "effect": {
-            "STR": 1
-        }
-    },
-    "1069": {
-        "id": "1069",
-        "name": "智可生财",
-        "description": "若20岁时智力>8，家境+2",
-        "condition": "(AGE?[20])&(INT>8)",
-        "grade": 0,
-        "effect": {
-            "MNY": 2
-        }
-    },
-    "1070": {
-        "id": "1070",
-        "name": "舔狗甚多",
-        "description": "若20岁时颜值>8，快乐+2",
-        "condition": "(AGE?[20])&(CHR>8)",
-        "grade": 0,
-        "effect": {
-            "SPR": 2
-        }
-    },
-    "1071": {
-        "id": "1071",
-        "name": "保胎丸",
-        "description": "你不会胎死腹中",
-        "grade": 0
-    },
-    "1072": {
-        "id": "1072",
-        "name": "白化病",
-        "description": "你不会遭遇枪击",
-        "grade": 0
-    },
-    "1073": {
-        "id": "1073",
-        "name": "佛宗",
-        "description": "考上哈佛大学的几率提高",
-        "grade": 0
-    },
-    "1074": {
-        "id": "1074",
-        "name": "悟道",
-        "description": "智力>10时快乐+3",
-        "condition": "INT>10",
-        "grade": 1,
-        "effect": {
-            "SPR": 3
-        }
-    },
-    "1075": {
-        "id": "1075",
-        "name": "驻颜",
-        "description": "体质>10时颜值+3",
-        "condition": "STR>10",
-        "grade": 0,
-        "effect": {
-            "CHR": 3
-        }
-    },
-    "1076": {
-        "id": "1076",
-        "name": "界限突破",
-        "description": "体质>10时快乐+3",
-        "condition": "STR>10",
-        "grade": 1,
-        "effect": {
-            "SPR": 3
-        }
-    },
-    "1077": {
-        "id": "1077",
-        "name": "倾城",
-        "description": "颜值>10时快乐+3",
-        "condition": "CHR>10",
-        "grade": 1,
-        "effect": {
-            "SPR": 3
-        }
-    },
-    "1078": {
-        "id": "1078",
-        "name": "训练有方",
-        "description": "智力>10时体质+3",
-        "condition": "INT>10",
-        "grade": 0,
-        "effect": {
-            "STR": 3
-        }
-    },
-    "1079": {
-        "id": "1079",
-        "name": "相由心生",
-        "description": "智力>10时颜值+3",
-        "condition": "INT>10",
-        "grade": 0,
-        "effect": {
-            "CHR": 3
-        }
-    },
-    "1080": {
-        "id": "1080",
-        "name": "智多鑫",
-        "description": "智力>10时家境+3",
-        "condition": "INT>10",
-        "grade": 0,
-        "effect": {
-            "MNY": 3
-        }
-    },
-    "1081": {
-        "id": "1081",
-        "name": "灵光",
-        "description": "快乐>10时其他属性+1",
-        "condition": "SPR>10",
-        "grade": 0,
-        "effect": {
-            "MNY": 1,
-            "CHR": 1,
-            "STR": 1,
-            "INT": 1
-        }
-    },
-    "1082": {
-        "id": "1082",
-        "name": "天启",
-        "description": "快乐>10时其他属性+2",
-        "condition": "SPR>10",
-        "grade": 1,
-        "effect": {
-            "MNY": 2,
-            "CHR": 2,
-            "STR": 2,
-            "INT": 2
-        }
-    },
-    "1083": {
-        "id": "1083",
-        "name": "神谕",
-        "description": "快乐>10时其他属性+3",
-        "condition": "SPR>10",
-        "grade": 2,
-        "effect": {
-            "MNY": 3,
-            "CHR": 3,
-            "STR": 3,
-            "INT": 3
-        }
-    },
-    "1084": {
-        "id": "1084",
-        "name": "献祭",
-        "description": "初始可用属性点-2，快乐+2",
-        "grade": 0,
-        "status": -2,
-        "effect": {
-            "SPR": 2
         },
         "exclusive": [
-            "1122"
-        ]
-    },
-    "1085": {
-        "id": "1085",
-        "name": "幸运儿",
-        "description": "初始可用属性点-3，快乐+5",
-        "grade": 1,
-        "status": -3,
-        "effect": {
-            "SPR": 5
-        },
-        "exclusive": [
-            "1122"
-        ]
-    },
-    "1086": {
-        "id": "1086",
-        "name": "挑战者",
-        "description": "初始可用点-10",
-        "grade": 0,
-        "status": -10,
-        "exclusive": [
-            "1122"
-        ]
-    },
-    "1087": {
-        "id": "1087",
-        "name": "你不懂",
-        "description": "家境>10时快乐+3",
-        "condition": "MNY>10",
-        "grade": 1,
-        "effect": {
-            "SPR": 3
-        }
-    },
-    "1088": {
-        "id": "1088",
-        "name": "整容",
-        "description": "家境>10时颜值+3",
-        "condition": "MNY>10",
-        "grade": 0,
-        "effect": {
-            "CHR": 3
-        }
-    },
-    "1089": {
-        "id": "1089",
-        "name": "钻石健身卡",
-        "description": "家境>10时体质+3",
-        "condition": "MNY>10",
-        "grade": 0,
-        "effect": {
-            "STR": 3
-        }
-    },
-    "1090": {
-        "id": "1090",
-        "name": "身残志坚",
-        "description": "体质<0时其他属性+1",
-        "condition": "STR<0",
-        "grade": 0,
-        "effect": {
-            "SPR": 1,
-            "MNY": 1,
-            "CHR": 1,
-            "INT": 1
-        }
-    },
-    "1091": {
-        "id": "1091",
-        "name": "活死人",
-        "description": "体质<0时其他属性+2",
-        "condition": "STR<0",
-        "grade": 1,
-        "effect": {
-            "SPR": 2,
-            "MNY": 2,
-            "CHR": 2,
-            "INT": 2
-        }
-    },
-    "1092": {
-        "id": "1092",
-        "name": "开一扇窗",
-        "description": "颜值<0时其他属性+1",
-        "condition": "CHR<0",
-        "grade": 0,
-        "effect": {
-            "SPR": 1,
-            "MNY": 1,
-            "STR": 1,
-            "INT": 1
-        }
-    },
-    "1093": {
-        "id": "1093",
-        "name": "大额头",
-        "description": "颜值-2，智力+2",
-        "grade": 0,
-        "effect": {
-            "CHR": -2,
-            "INT": 2
-        }
-    },
-    "1094": {
-        "id": "1094",
-        "name": "痘痘脸",
-        "description": "颜值-1",
-        "grade": 0,
-        "effect": {
-            "CHR": -1
-        }
-    },
-    "1095": {
-        "id": "1095",
-        "name": "潜能",
-        "description": "家境<0时其他属性+1",
-        "condition": "MNY<0",
-        "grade": 0,
-        "effect": {
-            "SPR": 1,
-            "CHR": 1,
-            "STR": 1,
-            "INT": 1
-        }
-    },
-    "1096": {
-        "id": "1096",
-        "name": "哀兵",
-        "description": "快乐<0时其他属性+1",
-        "condition": "SPR<0",
-        "grade": 0,
-        "effect": {
-            "MNY": 1,
-            "CHR": 1,
-            "STR": 1,
-            "INT": 1
-        }
-    },
-    "1097": {
-        "id": "1097",
-        "name": "苦痛侍僧",
-        "description": "快乐<-1时其他属性+2",
-        "condition": "SPR<-1",
-        "grade": 1,
-        "effect": {
-            "MNY": 2,
-            "CHR": 2,
-            "STR": 2,
-            "INT": 2
-        }
-    },
-    "1098": {
-        "id": "1098",
-        "name": "艰苦奋斗",
-        "description": "家境<-1时其他属性+2",
-        "condition": "MNY<-1",
-        "grade": 1,
-        "effect": {
-            "SPR": 2,
-            "CHR": 2,
-            "STR": 2,
-            "INT": 2
-        }
-    },
-    "1099": {
-        "id": "1099",
-        "name": "抖M",
-        "description": "家境-2，快乐+2",
-        "grade": 0,
-        "effect": {
-            "SPR": 2,
-            "MNY": -2
-        }
-    },
-    "1100": {
-        "id": "1100",
-        "name": "海的女儿",
-        "description": "颜值-2，初始可用属性点+1",
-        "grade": 0,
-        "status": 1,
-        "effect": {
-            "CHR": -2
-        }
-    },
-    "1101": {
-        "id": "1101",
-        "name": "进阶",
-        "description": "所有属性>5时，所有属性+1",
-        "condition": "(SPR>5)&(MNY>5)&(CHR>5)&(STR>5)&(INT>5)",
-        "grade": 0,
-        "effect": {
-            "SPR": 1,
-            "MNY": 1,
-            "CHR": 1,
-            "STR": 1,
-            "INT": 1
-        }
-    },
-    "1102": {
-        "id": "1102",
-        "name": "超进化",
-        "description": "所有属性>5时，所有属性+2",
-        "condition": "(SPR>5)&(MNY>5)&(CHR>5)&(STR>5)&(INT>5)",
-        "grade": 1,
-        "effect": {
-            "SPR": 2,
-            "MNY": 2,
-            "CHR": 2,
-            "STR": 2,
-            "INT": 2
-        }
-    },
-    "1103": {
-        "id": "1103",
-        "name": "白色胶囊",
-        "description": "你10岁时无事发生",
-        "condition": "AGE?[10]",
-        "grade": 0
-    },
-    "1104": {
-        "id": "1104",
-        "name": "紫色胶囊",
-        "description": "跳过你的40~50岁",
-        "condition": "AGE?[40]",
-        "grade": 2
-    },
-    "1105": {
-        "id": "1105",
-        "name": "蓝色胶囊",
-        "description": "你20、30岁时无事发生",
-        "condition": "AGE?[20]",
-        "grade": 1
-    },
-    "1106": {
-        "id": "1106",
-        "name": "健康饮食",
-        "description": "你不吃洋快餐",
-        "grade": 0
-    },
-    "1107": {
-        "id": "1107",
-        "name": "不想罢了",
-        "description": "你不会上清华大学",
-        "grade": 0
-    },
-    "1108": {
-        "id": "1108",
-        "name": "挑衅",
-        "description": "你喜欢没事找事",
-        "grade": 0
-    },
-    "1109": {
-        "id": "1109",
-        "name": "旅行者",
-        "description": "你喜欢旅游",
-        "grade": 0
-    },
-    "1110": {
-        "id": "1110",
-        "name": "水仙",
-        "description": "你比较自恋",
-        "grade": 0
-    },
-    "1111": {
-        "id": "1111",
-        "name": "缺一门",
-        "description": "无效果",
-        "grade": 0
-    },
-    "1112": {
-        "id": "1112",
-        "name": "异界来客",
-        "description": "你可能听到一些绝密消息",
-        "grade": 2
-    },
-    "1113": {
-        "id": "1113",
-        "name": "三胎人生",
-        "description": "你尽可能生三胎",
-        "grade": 1,
-        "exclusive": [
-            "1003",
-            "1025",
-            "1026",
-            1027,
-            1041,
-            1046
-        ]
-    },
-    "1114": {
-        "id": "1114",
-        "name": "橙色胶囊",
-        "description": "跳过你的60~90岁",
-        "condition": "AGE?[60]",
-        "grade": 3
-    },
-    "1115": {
-        "id": "1115",
-        "name": "宙斯",
-        "description": "参加奥赛的几率提高",
-        "grade": 0
-    },
-    "1116": {
-        "id": "1116",
-        "name": "为人民服务",
-        "description": "考公务员时一定能考上",
-        "grade": 0
-    },
-    "1117": {
-        "id": "1117",
-        "name": "表现良好",
-        "description": "入狱会减刑",
-        "grade": 0
-    },
-    "1118": {
-        "id": "1118",
-        "name": "小吉",
-        "description": "运气稍微提升",
-        "grade": 0
-    },
-    "1119": {
-        "id": "1119",
-        "name": "天秤座",
-        "description": "据说做事很公平",
-        "grade": 0
-    },
-    "1120": {
-        "id": "1120",
-        "name": "万里挑一",
-        "description": "你很攻",
-        "grade": 0
-    },
-    "1121": {
-        "id": "1121",
-        "name": "把握不住",
-        "description": "你有强迫症",
-        "grade": 0
-    },
-    "1122": {
-        "id": "1122",
-        "name": "急了急了",
-        "description": "赶着投胎，不要初始属性了",
-        "grade": 1,
-        "status": -20,
-        "exclusive": [
-            "1084",
-            "1085",
-            "1086"
-        ]
-    },
-    "1123": {
-        "id": "1123",
-        "name": "不离不弃",
-        "description": "你不会离婚",
-        "grade": 0
-    },
-    "1124": {
-        "id": "1124",
-        "name": "足量",
-        "description": "身高不矮",
-        "grade": 0
-    },
-    "1125": {
-        "id": "1125",
-        "name": "易胖体质",
-        "description": "颜值更容易降低",
-        "grade": 0
-    },
-    "1126": {
-        "id": "1126",
-        "name": "黄帝",
-        "description": "种族主义者",
-        "grade": 0
-    },
-    "1127": {
-        "id": "1127",
-        "name": "左撇子",
-        "description": "习惯使用左手",
-        "grade": 0
-    },
-    "1128": {
-        "id": "1128",
-        "name": "克苏鲁",
-        "description": "&▓▓▓◆▓▓▓￥#▓@■.◆",
-        "grade": 2
-    },
-    "1129": {
-        "id": "1129",
-        "name": "不连续存在",
-        "description": "你还拥有其他人格",
-        "grade": 1
-    },
-    "1130": {
-        "id": "1130",
-        "name": "占位符",
-        "description": "少一个可选天赋",
-        "grade": 0
-    },
-    "1131": {
-        "id": "1131",
-        "name": "魔法棒",
-        "description": "不知道有什么用……",
-        "grade": 2
-    },
-    "1132": {
-        "id": 1132,
-        "name": "返老还童",
-        "description": "可能会回到年轻的时候",
-        "grade": 1
-    },
-    "1133": {
-        "id": 1133,
-        "name": "时光倒流",
-        "description": "或许时间会倒流",
-        "grade": 0
-    },
-    "1134": {
-        "id": 1134,
-        "name": "转世重修",
-        "description": "渡劫失败重生",
-        "grade": 2
-    },
-    "1135": {
-        "id": 1135,
-        "name": "轮回之外",
-        "description": "死后可能灵魂离体",
-        "grade": 3
-    },
-    "1136": {
-        "id": 1136,
-        "name": "贪婪",
-        "description": "家境+10",
-        "grade": 0,
-        "effect": {
-            "INT": -5
-        }
-    },
-    "1137": {
-        "id": 1137,
-        "name": "百岁百世丸",
-        "description": "某条件下所有属性+2",
-        "condition": "(AGE?[100])&(TMS>99)",
-        "grade": 1,
-        "effect": {
-            "SPR": 2,
-            "MNY": 2,
-            "CHR": 2,
-            "STR": 2,
-            "INT": 2
-        }
-    },
-    "1138": {
-        "id": 1138,
-        "name": "意外之喜",
-        "description": "随机属性+1",
-        "grade": 0,
-        "effect": {
-            "RDM": 1
-        }
-    },
-    "1139": {
-        "id": 1139,
-        "name": "培养爱好",
-        "description": "随机属性+2",
-        "grade": 1,
-        "effect": {
-            "RDM": 2
-        }
-    },
-    "1140": {
-        "id": 1140,
-        "name": "觉醒",
-        "description": "随机属性+4",
-        "grade": 2,
-        "effect": {
-            "RDM": 4
-        }
-    },
-    "1141": {
-        "id": 1141,
-        "name": "阴间大会员",
-        "description": "随机属性+8",
-        "grade": 3,
-        "effect": {
-            "RDM": 8
-        }
-    },
-    "1142": {
-        "id": 1142,
-        "name": "蓝色转盘",
-        "description": "变成随机蓝色天赋",
-        "grade": 0,
-        "replacement": {
-            "grade": [
-                1
-            ]
-        },
-        "exclusive": [
-            "1012",
+            "1004",
+            "1008",
             "1013",
-            "1014",
-            1110,
-            1003,
-            1004,
-            1124,
-            1125
-        ]
-    },
-    "1143": {
-        "id": 1143,
-        "name": "紫色转盘",
-        "description": "变成随机紫色天赋",
-        "grade": 1,
-        "replacement": {
-            "grade": [
-                2
+            "1029"
+        ],
+        "2001": {
+            "id": "2001",
+            "name": "基础自愈",
+            "description": "具备基础的身体恢复能力",
+            "grade": 0,
+            "effect": {
+                "STR": 1,
+                "INT": 1
+            },
+            "exclusive": [
+                "2007"
+            ],
+            "next_level": "2002"
+        },
+        "2002": {
+            "id": "2002",
+            "name": "快速再生",
+            "description": "伤口愈合速度显著提升",
+            "grade": 1,
+            "effect": {
+                "STR": 2,
+                "INT": 1
+            },
+            "exclusive": [
+                "2008"
+            ],
+            "next_level": "2003"
+        },
+        "2003": {
+            "id": "2003",
+            "name": "查克拉再生",
+            "description": "查克拉恢复速度加快",
+            "grade": 2,
+            "effect": {
+                "INT": 2,
+                "SPR": 1
+            },
+            "exclusive": [
+                "2009"
+            ],
+            "next_level": "2004"
+        },
+        "2004": {
+            "id": "2004",
+            "name": "细胞活性化",
+            "description": "身体细胞活性大幅提升，恢复能力更强",
+            "grade": 3,
+            "effect": {
+                "STR": 3,
+                "SPR": 2
+            },
+            "exclusive": [
+                "2010"
+            ],
+            "next_level": "2005"
+        },
+        "2005": {
+            "id": "2005",
+            "name": "肉体再生",
+            "description": "可快速再生大部分身体组织",
+            "grade": 4,
+            "effect": {
+                "STR": 4,
+                "SPR": 3
+            },
+            "exclusive": [
+                "2011"
+            ],
+            "next_level": "2006"
+        },
+        "2006": {
+            "id": "2006",
+            "name": "不死之身",
+            "description": "几乎拥有不死之身，仅致命伤可造成威胁",
+            "grade": 5,
+            "effect": {
+                "STR": 5,
+                "SPR": 5
+            },
+            "exclusive": [
+                "2012"
             ]
         },
-        "exclusive": [
-            "1012",
-            "1013",
-            "1014",
-            1110,
-            1003,
-            1004,
-            1124,
-            1125
-        ]
-    },
-    "1144": {
-        "id": 1144,
-        "name": "橙色转盘",
-        "description": "变成随机橙色天赋",
-        "grade": 2,
-        "replacement": {
-            "grade": [
-                3
-            ]
-        }
-    },
-    "1145": {
-        "id": 1145,
-        "name": "阴间福袋",
-        "description": "可能开出好天赋",
-        "grade": 1,
-        "replacement": {
-            "talent": [
-                1138,
-                1133,
-                1125,
-                1128,
-                1129,
-                1131,
-                1111,
-                1108,
-                1071,
-                1072,
-                1044,
-                1039,
-                1040,
-                1033,
-                1031,
-                1002
-            ]
-        }
-    },
-    "1146": {
-        "id": 1146,
-        "name": "轮盘赌",
-        "description": "1/6几率变橙色天赋",
-        "grade": 1,
-        "replacement": {
-            "talent": [
-                "1141*0.2",
-                "1135*0.2",
-                "1114*0.2",
-                "1023*0.2",
-                "1048*0.2",
-                "1033*5"
+        "2007": {
+            "id": "2007",
+            "name": "忍术感知",
+            "description": "对忍术有基础的感知和理解能力",
+            "grade": 0,
+            "effect": {
+                "INT": 1,
+                "CHR": 1
+            },
+            "exclusive": [
+                "2001"
+            ],
+            "next_level": "2008"
+        },
+        "2008": {
+            "id": "2008",
+            "name": "忍术理解",
+            "description": "能快速理解普通忍术的原理和应用",
+            "grade": 1,
+            "effect": {
+                "INT": 2,
+                "CHR": 1
+            },
+            "exclusive": [
+                "2002"
+            ],
+            "next_level": "2009"
+        },
+        "2009": {
+            "id": "2009",
+            "name": "忍术专精",
+            "description": "对特定类型的忍术有深入研究",
+            "grade": 2,
+            "effect": {
+                "INT": 3,
+                "SPR": 1
+            },
+            "exclusive": [
+                "2003"
+            ],
+            "next_level": "2010"
+        },
+        "2010": {
+            "id": "2010",
+            "name": "忍术创造",
+            "description": "具备创造新忍术的能力",
+            "grade": 3,
+            "effect": {
+                "INT": 4,
+                "CHR": 2
+            },
+            "exclusive": [
+                "2004"
+            ],
+            "next_level": "2011"
+        },
+        "2011": {
+            "id": "2011",
+            "name": "忍术大师",
+            "description": "忍术造诣达到大师级别，可随意操控各种忍术",
+            "grade": 4,
+            "effect": {
+                "INT": 5,
+                "CHR": 3
+            },
+            "exclusive": [
+                "2005"
+            ],
+            "next_level": "2012"
+        },
+        "2012": {
+            "id": "2012",
+            "name": "忍术仙人",
+            "description": "忍术造诣登峰造极，能施展出超越常理的术法",
+            "grade": 5,
+            "effect": {
+                "INT": 7,
+                "CHR": 5
+            },
+            "exclusive": [
+                "2006"
             ]
         }
     }
