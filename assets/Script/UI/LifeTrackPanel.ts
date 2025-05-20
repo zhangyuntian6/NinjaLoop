@@ -206,7 +206,7 @@ export class LifeTrackPanel extends UIPanel {
             }
         ).join('<br/>');
         
-        this.createLifeTrack(`${track.age}岁 `, contentText)
+        this.createLifeTrack(`${track.age}天 `, contentText)
     }
 
     onLifeEnd() {

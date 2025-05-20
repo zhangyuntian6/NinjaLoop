@@ -81,52 +81,53 @@ class TalentManager {
         return null;
     }
 
-    talentRandom(include, {times = 0, achievement = 0} = {}): ITalentInfo[] {
-        const rate = { 1:100, 2:10, 3:1, };
-        const rateAddition = { 1:1, 2:1, 3:1, };
-        const timesRate = getRate('times', times);
-        const achievementRate = getRate('achievement', achievement);
+talentRandom(include, { times = 0, achievement = 0 } = {}) {
+    const rate = { 1: 100, 2: 10, 3: 1 };
+    const rateAddition = { 1: 1, 2: 1, 3: 1 };
+    const timesRate = getRate('times', times);
+    const achievementRate = getRate('achievement', achievement);
 
-        for(const grade in timesRate)
-            rateAddition[grade] += timesRate[grade] - 1;
+    for (const grade in timesRate) rateAddition[grade] += timesRate[grade] - 1;
+    for (const grade in achievementRate) rateAddition[grade] += achievementRate[grade] - 1;
+    for (const grade in rateAddition) rate[grade] *= rateAddition[grade];
 
-        for(const grade in achievementRate)
-            rateAddition[grade] += achievementRate[grade] - 1;
+    const randomGrade = () => {
+        let randomNumber = Math.floor(Math.random() * 1000);
+        if ((randomNumber -= rate[3]) < 0) return 3;
+        if ((randomNumber -= rate[2]) < 0) return 2;
+        if ((randomNumber -= rate[1]) < 0) return 1;
+        return 0;
+    };
 
-        for(const grade in rateAddition)
-            rate[grade] *= rateAddition[grade];
-
-        const randomGrade = () => {
-            let randomNumber = Math.floor(Math.random() * 1000);
-            if((randomNumber -= rate[3]) < 0) return 3;
-            if((randomNumber -= rate[2]) < 0) return 2;
-            if((randomNumber -= rate[1]) < 0) return 1;
-            return 0;
+    const talentList = {};
+    for (const talentId in this._talents) {
+        const { id, grade, name, description } = this._talents[talentId];
+        if (id == include) {
+            include = { grade, name, description, id };
+            continue;
         }
-
-        // 1000, 100, 10, 1
-        const talentList = {};
-        for(const talentId in this._talents) {
-            const { id, grade, name, description } = this._talents[talentId];
-            if(id == include) {
-                include = { grade, name, description, id };
-                continue;
-            }
-            if(!talentList[grade]) talentList[grade] = [{ grade, name, description, id }];
-            else talentList[grade].push({ grade, name, description, id });
-        }
-
-        return new Array(10)
-            .fill(1).map((v, i)=>{
-                if(!i && include) return include;
-                let grade = randomGrade();
-                while(talentList[grade].length == 0) grade--;
-                const length = talentList[grade].length;
-
-                const random = Math.floor(Math.random()*length) % length;
-                return talentList[grade].splice(random,1)[0];
-            });
+        if (!talentList[grade]) talentList[grade] = [{ grade, name, description, id }];
+        else talentList[grade].push({ grade, name, description, id });
     }
+
+    return new Array(3).fill(1).map((v, i) => {
+        if (!i && include) return include;
+        let grade = randomGrade();
+
+        // 检查 talentList[grade] 是否为 undefined
+        while (!talentList[grade] || talentList[grade].length === 0) {
+            grade--;
+            if (grade < 0) {
+                // 如果所有等级都没有可用的天赋，抛出错误或者返回默认值
+                throw new Error('No available talents for random selection.');
+            }
+        }
+
+        const length = talentList[grade].length;
+        const random = Math.floor(Math.random() * length) % length;
+        return talentList[grade].splice(random, 1)[0];
+    });
+}
 
     allocationAddition(talents) {
         if(Array.isArray(talents)) {

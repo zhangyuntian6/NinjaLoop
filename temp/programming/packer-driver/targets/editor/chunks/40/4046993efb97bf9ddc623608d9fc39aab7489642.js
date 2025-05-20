@@ -301,7 +301,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
                 return description + (postEvent ? `<br/>${postEvent}` : '');
             }
           }).join('<br/>');
-          this.createLifeTrack(`${track.age}岁 `, contentText);
+          this.createLifeTrack(`${track.age}天 `, contentText);
         }
 
         onLifeEnd() {

@@ -157,8 +157,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             if ((randomNumber -= rate[2]) < 0) return 2;
             if ((randomNumber -= rate[1]) < 0) return 1;
             return 0;
-          }; // 1000, 100, 10, 1
-
+          };
 
           const talentList = {};
 
@@ -193,11 +192,18 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             });
           }
 
-          return new Array(10).fill(1).map((v, i) => {
+          return new Array(3).fill(1).map((v, i) => {
             if (!i && include) return include;
-            let grade = randomGrade();
+            let grade = randomGrade(); // 检查 talentList[grade] 是否为 undefined
 
-            while (talentList[grade].length == 0) grade--;
+            while (!talentList[grade] || talentList[grade].length === 0) {
+              grade--;
+
+              if (grade < 0) {
+                // 如果所有等级都没有可用的天赋，抛出错误或者返回默认值
+                throw new Error('No available talents for random selection.');
+              }
+            }
 
             const length = talentList[grade].length;
             const random = Math.floor(Math.random() * length) % length;

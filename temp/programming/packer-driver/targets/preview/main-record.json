@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 16694.7968,
+      "mTimestamp": 15116.5886,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -430,7 +430,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 510095853.5893,
+      "mTimestamp": 450896951.6181,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -2032,7 +2032,7 @@
     },
     "file:///D:/NinjaLoop/assets/Script/Life.ts": {
       "mTimestamp": {
-        "mtime": 1745918026925.5408,
+        "mtime": 1747400975761.2092,
         "uuid": "26af1a90-2031-40e2-b2fb-23323b15417b"
       },
       "chunkId": "241d9e13ffcf9e86d6d6ba08e0c7bb6d6b63bd16",
@@ -2191,7 +2191,7 @@
     },
     "file:///D:/NinjaLoop/assets/Script/Talent.ts": {
       "mTimestamp": {
-        "mtime": 1745918026957.196,
+        "mtime": 1747662803408.2903,
         "uuid": "6f0e9da6-3d57-4d0d-9c61-ede270af7b7e"
       },
       "chunkId": "2f812892af89012f273e150e393d502502e5b8d1",
@@ -2831,7 +2831,7 @@
     },
     "file:///D:/NinjaLoop/assets/Script/UI/LifeTrackPanel.ts": {
       "mTimestamp": {
-        "mtime": 1745918027926.1775,
+        "mtime": 1747130993384.8997,
         "uuid": "5aab28d7-b5ff-4e1c-933b-142fbdfa229f"
       },
       "chunkId": "4046993efb97bf9ddc623608d9fc39aab7489642",
@@ -3072,7 +3072,7 @@
     },
     "file:///D:/NinjaLoop/assets/Script/UI/SelectTalentPanel.ts": {
       "mTimestamp": {
-        "mtime": 1745918028096.0603,
+        "mtime": 1747660394724.6492,
         "uuid": "c4d7be20-44bf-466b-b6ca-cf4b1906e300"
       },
       "chunkId": "5b934206f947fd5d0078da9f1e0744fd4cd1f245",
@@ -3091,11 +3091,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 2,
+              "line": 1,
               "column": 80
             },
             "end": {
-              "line": 2,
+              "line": 1,
               "column": 84
             }
           }
@@ -3105,11 +3105,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 3,
+              "line": 2,
               "column": 24
             },
             "end": {
-              "line": 3,
+              "line": 2,
               "column": 36
             }
           }
@@ -3119,11 +3119,11 @@
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 5,
+              "line": 4,
               "column": 25
             },
             "end": {
-              "line": 5,
+              "line": 4,
               "column": 48
             }
           }
@@ -3133,11 +3133,11 @@
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
-              "line": 6,
+              "line": 5,
               "column": 27
             },
             "end": {
-              "line": 6,
+              "line": 5,
               "column": 41
             }
           }
@@ -3147,11 +3147,11 @@
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
-              "line": 7,
+              "line": 6,
               "column": 24
             },
             "end": {
-              "line": 7,
+              "line": 6,
               "column": 35
             }
           }
@@ -3755,7 +3755,7 @@
     },
     "file:///D:/NinjaLoop/assets/Script/event.ts": {
       "mTimestamp": {
-        "mtime": 1745918027200.1843,
+        "mtime": 1747400880847.345,
         "uuid": "b1ad84b9-caba-4dc8-b076-6fe7526f0aaa"
       },
       "chunkId": "8c5de57c5261fc86750d1018c659c618ada912af",
@@ -4001,7 +4001,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1746012287408,
+      "mTimestamp": 1747211908900,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",

@@ -3,7 +3,7 @@
         "id": "00000",
         "event": "这是注释",
         "effect": "31-51为意外事件，52-91为平民事件，92-109为死亡事件",
-        "NoRandom": 1
+        "Lrandom": 1
     },
     "10000": {
         "id": "10000",
@@ -15,12 +15,11 @@
     },
     "10001": {
         "id": "10001",
-        "event": "你穿越来到了火影世界。",
-        "exclude": "TLT?[1004,1024,1025]"
+        "event": "你穿越来到了火影世界。水果摊的大叔问你，要来个苹果吗？"
     },
     "10002": {
         "id": "10002",
-        "event": "你的父母是普通的商人。",
+        "event": "你的父母是普通的商人，有点小钱。",
         "effect": {
             "MNY": 1
         },
@@ -28,36 +27,31 @@
     },
     "10003": {
         "id": "10003",
-        "event": "你的父母是普通的农民。",
+        "event": "你的父母是普通的农民，没什么可以帮你的",
         "effect": {
-            "STR": 1
         },
         "exclude": "EVT?[10002,10004]"
     },
     "10004": {
         "id": "10004",
-        "event": "你的父母是一家面馆的老板。",
+        "event": "你是一个孤儿。",
         "effect": {
-            "MNY": 1,
-            "SPR": 1
         },
         "exclude": "EVT?[10002,10003]"
     },
     "10005": {
         "id": "10005",
-        "event": "你经常看到忍者从屋顶上跳过。",
+        "event": "你选择了查克拉亲和，但是你不会修炼方法",
         "effect": {
-            "SPR": 1
         },
-        "exclude": "EVT?[10005]"
+        "include": "TLT?[1002]"
     },
     "10006": {
         "id": "10006",
-        "event": "你在街上看到了正在训练的忍者学校学生。",
+        "event": "你选择了体术领悟，但是你不会体术。",
         "effect": {
-            "INT": 1
         },
-        "exclude": "EVT?[10006]"
+        "include": "TLT?[1003]"
     },
     "10007": {
         "id": "10007",
@@ -65,7 +59,7 @@
         "effect": {
             "INT": 2
         },
-        "include": "INT>5",
+        "include": "TLT?[1003,1004,1024,1113]",
         "exclude": "EVT?[10007]"
     },
     "10008": {
@@ -961,5 +955,225 @@
         "branch": [
             "STR<0:10000"
         ]
+    },
+    "RDM001": {
+        "id": "RDM001",
+        "event": "晾衣绳被不明生物抓断",
+        "branch": [
+            "INT>5:RDM001A",
+            "default:RDM001B"
+        ]
+    },
+    "RDM001A": {
+        "id": "RDM001A",
+        "event": "你发现是乌鸦叼着金属片划断的",
+        "effect": {
+            "INT": 1
+        },
+        "postEvent": "金属片在特殊角度有奇怪的反光",
+        "NoRandom": 1
+    },
+    "RDM001B": {
+        "id": "RDM001B",
+        "event": "误以为是野猫作祟撒了辣椒粉",
+        "effect": {
+            "SPR": -1
+        },
+        "postEvent": "第二天眼睛红肿被嘲笑",
+        "NoRandom": 1
+    },
+    "RDM002": {
+        "id": "RDM002",
+        "event": "帮铁匠铺搬运矿石",
+        "effect": {
+            "STR": 1,
+            "MNY": 1
+        },
+        "postEvent": "意外发现能分辨查克拉金属的特殊冰凉感"
+    },
+    "RDM003": {
+        "id": "RDM003",
+        "event": "菜市场出现会发光的南瓜",
+        "branch": [
+            "INT>6:RDM003A",
+            "default:RDM003B"
+        ]
+    },
+    "RDM003A": {
+        "id": "RDM003A",
+        "event": "你报告给巡逻忍者获得赏金",
+        "effect": {
+            "MNY": 2,
+            "INT": 1
+        },
+        "NoRandom": 1
+    },
+    "RDM003B": {
+        "id": "RDM003B",
+        "event": "煮食后产生诡异紫色烟雾",
+        "effect": {
+            "STR": -2
+        },
+        "postEvent": "被医疗班罚款清洗街道",
+        "NoRandom": 1
+    },
+    "RDM004": {
+        "id": "RDM004",
+        "event": "目睹忍者用卷轴封印野猪",
+        "effect": {
+            "INT": 1
+        },
+        "postEvent": "连续三天梦见会说话的猪"
+    },
+    "RDM005": {
+        "id": "RDM005",
+        "event": "捡到刻着符文的碎石片",
+        "branch": [
+            "MNY>3:RDM005A",
+            "default:RDM005B"
+        ]
+    },
+    "RDM005A": {
+        "id": "RDM005A",
+        "event": "卖给古董商",
+        "effect": {
+            "MNY": 3,
+            "INT": 1
+        },
+        "NoRandom": 1
+    },
+    "RDM005B": {
+        "id": "RDM005B",
+        "event": "当打火石使用引发小爆炸",
+        "effect": {
+            "STR": -1
+        },
+        "NoRandom": 1
+    },
+    "RDM006": {
+        "id": "RDM006",
+        "event": "帮酒馆开发新菜品",
+        "branch": [
+            "INT>5:RDM006A",
+            "default:RDM006B"
+        ]
+    },
+    "RDM006A": {
+        "id": "RDM006A",
+        "event": "发明查克拉调味法（伪）",
+        "effect": {
+            "MNY": 2,
+            "SPR": 1
+        },
+        "NoRandom": 1
+    },
+    "RDM006B": {
+        "id": "RDM006B",
+        "event": "把辣椒粉当成糖霜使用",
+        "effect": {
+            "MNY": -1,
+            "SPR": -2
+        },
+        "NoRandom": 1
+    },
+    "RDM007": {
+        "id": "RDM007",
+        "event": "在旧书摊发现人体穴位图",
+        "effect": {
+            "INT": 2
+        },
+        "postEvent": "每晚对照自己身体研究（准确性存疑）"
+    },
+    "RDM008": {
+        "id": "RDM008",
+        "event": "目睹下忍用变身术逃票",
+        "effect": {
+            "INT": 1
+        },
+        "postEvent": "试图模仿却只会做鬼脸"
+    },
+    "RDM009": {
+        "id": "RDM009",
+        "event": "被雇佣清理训练场",
+        "branch": [
+            "STR>5:RDM009A",
+            "default:RDM009B"
+        ]
+    },
+    "RDM009A": {
+        "id": "RDM009A",
+        "event": "发现嵌在树上的手里剑",
+        "effect": {
+            "MNY": 1,
+            "STR": 1
+        },
+        "NoRandom": 1
+    },
+    "RDM009B": {
+        "id": "RDM009B",
+        "event": "误触残留的起爆符灰烬",
+        "effect": {
+            "STR": -2
+        },
+        "NoRandom": 1
+    },
+    "RDM010": {
+        "id": "RDM010",
+        "event": "帮药店试验新伤药",
+        "branch": [
+            "STR>6:RDM010A",
+            "default:RDM010B"
+        ]
+    },
+    "RDM010A": {
+        "id": "RDM010A",
+        "event": "肌肉酸痛奇迹般痊愈",
+        "effect": {
+            "STR": 1,
+            "MNY": 2
+        },
+        "NoRandom": 1
+    },
+    "RDM010B": {
+        "id": "RDM010B",
+        "event": "产生过敏反应浑身起疹",
+        "effect": {
+            "SPR": -2
+        },
+        "NoRandom": 1
+    },
+    "RDM011": {
+        "id": "RDM011",
+        "event": "在河边发现昏迷的流浪忍者",
+        "branch": [
+            "MNY>3:RDM011A",
+            "INT>5:RDM011B",
+            "default:RDM011C"
+        ]
+    },
+    "RDM011A": {
+        "id": "RDM011A",
+        "event": "用钱买药救治获得谢礼",
+        "effect": {
+            "MNY": -2,
+            "INT": 1
+        },
+        "NoRandom": 1
+    },
+    "RDM011B": {
+        "id": "RDM011B",
+        "event": "用草药知识制作简易解毒剂",
+        "effect": {
+            "INT": 2
+        },
+        "NoRandom": 1
+    },
+    "RDM011C": {
+        "id": "RDM011C",
+        "event": "触碰忍者皮肤导致中毒",
+        "effect": {
+            "LIF": -1
+        },
+        "NoRandom": 1
     }
 }

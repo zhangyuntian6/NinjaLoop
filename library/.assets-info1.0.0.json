@@ -38,7 +38,7 @@
       "uuid": "2ebf1737-a3f2-4c3b-8ea3-ca2cd364f3ed"
     },
     "D:\\NinjaLoop\\assets\\Script\\event.ts": {
-      "time": 1745918027200.1843,
+      "time": 1747400880847.345,
       "uuid": "b1ad84b9-caba-4dc8-b076-6fe7526f0aaa"
     },
     "D:\\NinjaLoop\\assets\\Script\\GameManager.ts": {
@@ -46,7 +46,7 @@
       "uuid": "6f8c8abd-664a-43a8-a8c6-86c574e2d0c3"
     },
     "D:\\NinjaLoop\\assets\\Script\\Life.ts": {
-      "time": 1745918026925.5408,
+      "time": 1747400975761.2092,
       "uuid": "26af1a90-2031-40e2-b2fb-23323b15417b"
     },
     "D:\\NinjaLoop\\assets\\Script\\property.ts": {
@@ -54,7 +54,7 @@
       "uuid": "14601ed6-1149-48fc-b912-59123575a957"
     },
     "D:\\NinjaLoop\\assets\\Script\\Talent.ts": {
-      "time": 1745918026957.196,
+      "time": 1747662803408.2903,
       "uuid": "6f0e9da6-3d57-4d0d-9c61-ede270af7b7e"
     },
     "D:\\NinjaLoop\\assets\\Script\\functions\\addition.ts": {
@@ -98,7 +98,7 @@
       "uuid": "13c81e74-c53f-4e1e-8543-4f93b3e5b03d"
     },
     "D:\\NinjaLoop\\assets\\Script\\UI\\LifeTrackPanel.ts": {
-      "time": 1745918027926.1775,
+      "time": 1747130993384.8997,
       "uuid": "5aab28d7-b5ff-4e1c-933b-142fbdfa229f"
     },
     "D:\\NinjaLoop\\assets\\Script\\UI\\PropItem.ts": {
@@ -106,7 +106,7 @@
       "uuid": "92825e54-3bf6-4ff9-91ee-553164aef828"
     },
     "D:\\NinjaLoop\\assets\\Script\\UI\\SelectTalentPanel.ts": {
-      "time": 1745918028096.0603,
+      "time": 1747660394724.6492,
       "uuid": "c4d7be20-44bf-466b-b6ca-cf4b1906e300"
     },
     "D:\\NinjaLoop\\assets\\Script\\UI\\StartMenuPanel.ts": {
@@ -292,15 +292,15 @@
       "uuid": "0afbdc73-09cd-40a9-9c8b-ad0b30da8542"
     },
     "D:\\NinjaLoop\\assets\\resources\\achievement.json": {
-      "time": 1745918029124.8708,
+      "time": 1747131251605.2856,
       "uuid": "ae5dc4b9-8654-4e9f-9767-479897f965b2"
     },
     "D:\\NinjaLoop\\assets\\resources\\age.json": {
-      "time": 1746704720893.3018,
+      "time": 1747644389432.3577,
       "uuid": "68feec33-23ef-4805-98f9-d319ab214072"
     },
     "D:\\NinjaLoop\\assets\\resources\\events.json": {
-      "time": 1746704641429.2366,
+      "time": 1747665216684.81,
       "uuid": "3ff90288-eb62-429e-91c0-37d0fc780611"
     },
     "D:\\NinjaLoop\\assets\\resources\\happy_life.json": {
@@ -312,7 +312,7 @@
       "uuid": "988fb50d-f588-4369-b208-8e9987dc084d"
     },
     "D:\\NinjaLoop\\assets\\resources\\talents.json": {
-      "time": 1745918029579.9014,
+      "time": 1747664918709.064,
       "uuid": "2f65da67-5104-41fb-88ce-d2120263e0d0"
     },
     "D:\\NinjaLoop\\assets\\Scene\\Main.scene": {
@@ -383,7 +383,7 @@
       "time": 1746011548095.288
     },
     "D:\\NinjaLoop\\assets\\resources\\defines.json": {
-      "time": 1746696193385.006,
+      "time": 1747624512423.7478,
       "uuid": "2d427692-28a7-4141-b718-ab3e07118b22"
     },
     "D:\\NinjaLoop\\assets\\scene.scene.meta": {

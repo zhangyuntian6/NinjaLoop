@@ -1,642 +1,982 @@
 {
     "1001": {
         "id": "1001",
-        "name": "穿越平民",
-        "description": "穿越到火影世界成为平民，拥有一些现代知识，但初始身体素质普通",
-        "grade": 0,
-        "effect": {
-            "INT": 1,
-            "STR": 0
-        },
-        "exclusive": [
-            "1003",
-            "1005",
-            "1008",
-            "1011"
-        ]
+        "name": "护额符咒",
+        "description": "护额上的神秘符咒，或许能在战斗中带来护佑",
+        "grade": 0
     },
     "1002": {
         "id": "1002",
-        "name": "街头智慧",
-        "description": "在火影村的街头巷尾长大，熟悉各种小道消息和生存技巧",
-        "grade": 1,
-        "effect": {
-            "INT": 1,
-            "SPR": 1
-        },
-        "exclusive": [
-            "1007",
-            "1009",
-            "1016",
-            "1025"
-        ]
+        "name": "查克拉亲和",
+        "description": "天生对查克拉有独特的感觉",
+        "grade": 0
     },
     "1003": {
         "id": "1003",
-        "name": "体力储备",
-        "description": "长期从事体力劳动，身体素质较好，但可能缺乏灵活应变能力",
-        "grade": 1,
-        "effect": {
-            "STR": 2,
-            "INT": -1
-        },
-        "exclusive": [
-            "1001",
-            "1004",
-            "1012",
-            "1023"
-        ]
+        "name": "体术领悟",
+        "description": "天生适合学习体术",
+        "grade": 0
     },
     "1004": {
         "id": "1004",
-        "name": "观察力敏锐",
-        "description": "拥有敏锐的观察力，能发现别人忽略的细节，但体力相对较弱",
-        "grade": 1,
+        "name": "俺是种地的",
+        "description": "体质+1",
+        "grade": 0,
         "effect": {
-            "INT": 2,
-            "STR": -1
-        },
-        "exclusive": [
-            "1003",
-            "1019",
-            "1027",
-            "1030"
-        ]
+            "STR": 1
+        }
     },
     "1005": {
         "id": "1005",
-        "name": "亲和力强",
-        "description": "容易和他人建立良好关系，朋友众多，但可能会在战斗中过于顾及他人",
-        "grade": 1,
+        "name": "村里一枝花",
+        "description": "有那么一点点魅力",
+        "grade": 0,
         "effect": {
-            "CHR": 2,
-            "STR": -1
-        },
-        "exclusive": [
-            "1001",
-            "1007",
-            "1016",
-            "1028"
-        ]
+            "CHR": 1
+        }
     },
     "1006": {
         "id": "1006",
-        "name": "艺术天赋",
-        "description": "在绘画、音乐等艺术方面有天赋，能缓解压力，但对战斗帮助不大",
-        "grade": 1,
+        "name": "坚毅",
+        "description": "拥有坚定的信念，精神力 +1",
+        "grade": 0,
         "effect": {
-            "SPR": 2,
-            "STR": -1
-        },
-        "exclusive": [
-            "1007",
-            "1009",
-            "1017",
-            "1026"
-        ]
+            "SPR": 1
+        }
     },
     "1007": {
         "id": "1007",
-        "name": "机械达人",
-        "description": "对机械原理有深入了解，能制作一些简单工具，但缺乏战斗经验",
-        "grade": 1,
-        "effect": {
-            "INT": 2,
-            "SPR": -1
-        },
-        "exclusive": [
-            "1002",
-            "1005",
-            "1006",
-            "1009"
-        ]
+        "name": "天才",
+        "description": "初始可用属性点 +2",
+        "grade": 0,
+        "status": 2
     },
     "1008": {
         "id": "1008",
-        "name": "美食家",
-        "description": "对美食有独特的品味和了解，能从食物中获得快乐，但可能比较懒散",
-        "grade": 1,
+        "name": "心灵枷锁",
+        "description": "心灵被枷锁束缚，精神力 -3",
+        "grade": 2,
         "effect": {
-            "SPR": 2,
-            "STR": -1
-        },
-        "exclusive": [
-            "1001",
-            "1013",
-            "1019",
-            "1030"
-        ]
+            "SPR": -3
+        }
     },
     "1009": {
         "id": "1009",
-        "name": "草药知识",
-        "description": "了解各种草药的功效，能制作简单的药品，但战斗能力不足",
+        "name": "嘴遁高手",
+        "description": "擅长嘴遁之术，精神力 +2",
         "grade": 1,
         "effect": {
-            "INT": 2,
-            "STR": -1
-        },
-        "exclusive": [
-            "1006",
-            "1007",
-            "1017",
-            "1028"
-        ]
+            "SPR": 2
+        }
     },
     "1010": {
         "id": "1010",
-        "name": "方向感强",
-        "description": "在火影世界中不会迷路，能快速找到目的地，但可能过于依赖方向感",
-        "grade": 1,
+        "name": "贵族家庭穿越",
+        "description": "穿越到忍村贵族家庭，获得更多资源和人脉",
+        "grade": 2,
         "effect": {
-            "INT": 1,
-            "SPR": 1
+            "MNY": 1
         },
         "exclusive": [
-            "1018",
-            "1026",
-            "1028"
+            "1012",
+            "1013",
+            "1014"
         ]
     },
     "1011": {
         "id": "1011",
-        "name": "动物之友",
-        "description": "能和动物友好相处，动物会提供一些帮助，但可能会引起他人嫉妒",
-        "grade": 1,
-        "effect": {
-            "CHR": 2,
-            "INT": -1
-        },
-        "exclusive": [
-            "1001",
-            "1012",
-            "1016",
-            "1024"
-        ]
+        "name": "独子忍者",
+        "description": "身为家族独子忍者，没有兄弟姐妹",
+        "grade": 2
     },
     "1012": {
         "id": "1012",
-        "name": "记忆力超群",
-        "description": "拥有超强的记忆力，能记住各种知识和信息，但身体素质较差",
-        "grade": 1,
-        "effect": {
-            "INT": 3,
-            "STR": -2
-        },
+        "name": "山村穿越者",
+        "description": "穿越到偏远山村，锻炼出坚韧的意志和野外生存能力",
+        "grade": 2,
         "exclusive": [
-            "1003",
-            "1011",
-            "1019",
-            "1027"
+            "1010",
+            "1013",
+            "1014"
         ]
     },
     "1013": {
         "id": "1013",
-        "name": "运气爆棚",
-        "description": "运气极佳，经常能遇到好事，但可能会过于依赖运气",
-        "grade": 1,
-        "effect": {
-            "SPR": 3,
-            "INT": -1
-        },
+        "name": "忍村中心穿越",
+        "description": "穿越到忍村繁华中心，接触更多先进忍术和资源",
+        "grade": 2,
         "exclusive": [
-            "1008",
-            "1019",
-            "1022",
-            "1030"
+            "1010",
+            "1012",
+            "1014"
         ]
     },
     "1014": {
         "id": "1014",
-        "name": "谈判专家",
-        "description": "擅长谈判和沟通，能解决一些冲突，但战斗能力较弱",
-        "grade": 1,
+        "name": "异国穿越者",
+        "description": "从异世界穿越而来，带来不同文化的知识和视角",
+        "grade": 2,
         "effect": {
-            "INT": 2,
-            "STR": -1
-        },
-        "exclusive": [
-            "1003",
-            "1027",
-            "1030"
-        ]
-    },
-    "1015": {
-        "id": "1015",
-        "name": "表演天赋",
-        "description": "有出色的表演天赋，能迷惑他人，但在真实战斗中可能会露馅",
-        "grade": 1,
-        "effect": {
-            "CHR": 2,
-            "STR": -1
-        },
-        "exclusive": [
-            "1003",
-            "1019",
-            "1027"
-        ]
-    },
-    "1016": {
-        "id": "1016",
-        "name": "算数天才",
-        "description": "对数字敏感，擅长算数，在交易中不会吃亏，但缺乏实战经验",
-        "grade": 1,
-        "effect": {
-            "INT": 2,
-            "SPR": -1
-        },
-        "exclusive": [
-            "1002",
-            "1005",
-            "1011",
-            "1024"
-        ]
-    },
-    "1017": {
-        "id": "1017",
-        "name": "手工达人",
-        "description": "擅长手工制作，能制作一些实用物品，但战斗能力不足",
-        "grade": 1,
-        "effect": {
-            "INT": 2,
-            "STR": -1
-        },
-        "exclusive": [
-            "1006",
-            "1009",
-            "1028",
-            "1029"
-        ]
-    },
-    "1018": {
-        "id": "1018",
-        "name": "直觉敏锐",
-        "description": "直觉敏锐，能提前感知危险，但可能会过于相信直觉",
-        "grade": 1,
-        "effect": {
-            "INT": 1,
-            "SPR": 1
+            "MNY": 1
         },
         "exclusive": [
             "1010",
-            "1026",
-            "1028"
-        ]
-    },
-    "1019": {
-        "id": "1019",
-        "name": "忍耐力强",
-        "description": "拥有强大的忍耐力，能在艰苦环境中生存，但反应可能较慢",
-        "grade": 1,
-        "effect": {
-            "STR": 2,
-            "INT": -1
-        },
-        "exclusive": [
-            "1004",
-            "1008",
             "1012",
             "1013"
         ]
     },
+    "1015": {
+        "id": "1015",
+        "name": "家族核心成员穿越",
+        "description": "穿越到忍族核心家庭，获得家族传承的忍术和资源",
+        "grade": 1
+    },
+    "1016": {
+        "id": "1016",
+        "name": "水遁亲和",
+        "description": "对水遁忍术有极高的亲和力，不会被水遁术淹没",
+        "grade": 2
+    },
+    "1017": {
+        "id": "1017",
+        "name": "毒素免疫体质",
+        "description": "天生对忍者世界的毒素免疫，不会中毒",
+        "grade": 2
+    },
+    "1018": {
+        "id": "1018",
+        "name": "忍者进化",
+        "description": "所有忍者属性 +1",
+        "grade": 2,
+        "effect": {
+            "SPR": 1,
+            "MNY": 1,
+            "CHR": 1,
+            "STR": 1,
+            "INT": 1
+        }
+    },
+    "1019": {
+        "id": "1019",
+        "name": "超凡忍者天赋",
+        "description": "初始可用属性点 +4",
+        "grade": 2,
+        "status": 4
+    },
     "1020": {
         "id": "1020",
-        "name": "语言天赋",
-        "description": "能快速学习和掌握各种语言，便于交流，但战斗能力一般",
+        "name": "忍者世家美貌血脉",
+        "description": "继承父母美貌血脉，魅力 +2",
         "grade": 1,
         "effect": {
-            "INT": 2,
-            "STR": -1
-        },
-        "exclusive": [
-            "1003",
-            "1019",
-            "1027"
-        ]
+            "CHR": 2
+        }
     },
     "1021": {
         "id": "1021",
-        "name": "团队协作",
-        "description": "善于团队协作，能发挥团队最大优势，但个人能力可能不突出",
-        "grade": 1,
+        "name": "红颜忍者宿命",
+        "description": "拥有绝世容颜，但体质较弱，魅力 +2，体质 -2",
+        "grade": 2,
         "effect": {
-            "INT": 1,
-            "STR": -1
-        },
-        "exclusive": [
-            "1024",
-            "1025",
-            "1026"
-        ]
+            "CHR": 2,
+            "STR": -2
+        }
     },
     "1022": {
         "id": "1022",
-        "name": "适应能力强",
-        "description": "能快速适应各种环境，但可能缺乏专注度",
-        "grade": 1,
-        "effect": {
-            "SPR": 2,
-            "INT": -1
-        },
-        "exclusive": [
-            "1013",
-            "1016",
-            "1029"
-        ]
+        "name": "蛇仙眷顾",
+        "description": "受蛇仙眷顾，不会被蛇类忍术伤害",
+        "grade": 2
     },
     "1023": {
         "id": "1023",
-        "name": "策略大师",
-        "description": "擅长制定策略，能在战斗中取得优势，但身体素质较差",
-        "grade": 1,
+        "name": "半神忍者之躯",
+        "description": "拥有半神般的忍者之躯，所有属性 +2",
+        "grade": 3,
         "effect": {
-            "INT": 3,
-            "STR": -2
-        },
-        "exclusive": [
-            "1003",
-            "1012",
-            "1019",
-            "1027"
-        ]
+            "SPR": 2,
+            "MNY": 2,
+            "CHR": 2,
+            "STR": 2,
+            "INT": 2
+        }
     },
     "1024": {
         "id": "1024",
-        "name": "领导才能",
-        "description": "具有领导才能，能带领团队前进，但可能会过于自负",
-        "grade": 1,
-        "effect": {
-            "CHR": 2,
-            "INT": -1
-        },
+        "name": "双属性忍者天赋",
+        "description": "天生拥有双重属性，极为罕见",
+        "grade": 2,
         "exclusive": [
-            "1011",
-            "1016",
-            "1021",
+            "1003",
+            "1004",
             "1025"
         ]
     },
     "1025": {
         "id": "1025",
-        "name": "创新思维",
-        "description": "拥有创新思维，能提出独特的解决方案，但可能不被他人理解",
-        "grade": 1,
-        "effect": {
-            "INT": 2,
-            "SPR": -1
-        },
+        "name": "无属性忍者之体",
+        "description": "天生无特定属性，潜力无限却难以捉摸",
+        "grade": 2,
         "exclusive": [
-            "1002",
-            "1021",
+            "1003",
             "1024",
-            "1026"
+            "1004",
+            "1113"
         ]
     },
     "1026": {
         "id": "1026",
-        "name": "心理洞察",
-        "description": "能洞察他人心理，在谈判和战斗中占据优势，但可能会过于敏感",
-        "grade": 1,
-        "effect": {
-            "INT": 2,
-            "SPR": -1
-        },
+        "name": "同性忍者羁绊",
+        "description": "更容易与同性忍者建立深厚羁绊",
+        "grade": 2,
         "exclusive": [
-            "1006",
-            "1010",
-            "1018",
-            "1021",
-            "1025"
+            "1113"
         ]
     },
     "1027": {
         "id": "1027",
-        "name": "运动天赋",
-        "description": "在运动方面有天赋，身体素质较好，但可能缺乏耐心",
+        "name": "绝情忍者之路",
+        "description": "斩断儿女情长，一心追求忍者之道，终生不恋爱结婚",
         "grade": 1,
-        "effect": {
-            "STR": 2,
-            "INT": -1
-        },
         "exclusive": [
-            "1003",
-            "1004",
-            "1012",
-            "1014"
+            "1113"
         ]
     },
     "1028": {
         "id": "1028",
-        "name": "空间感知",
-        "description": "对空间有敏锐的感知，能在复杂环境中行动自如，但可能会过于自我",
-        "grade": 1,
-        "effect": {
-            "INT": 2,
-            "SPR": -1
-        },
-        "exclusive": [
-            "1005",
-            "1009",
-            "1010",
-            "1018",
-            "1017"
-        ]
+        "name": "忍者桃花运",
+        "description": "在忍者世界中恋爱机会提升",
+        "grade": 2
     },
     "1029": {
         "id": "1029",
-        "name": "时间管理",
-        "description": "擅长时间管理，能高效完成任务，但可能会过于紧张",
-        "grade": 1,
-        "effect": {
-            "INT": 2,
-            "SPR": -1
-        },
-        "exclusive": [
-            "1017",
-            "1022",
-            "1030"
-        ]
+        "name": "安稳穿越环境",
+        "description": "穿越到和平时期，有足够时间适应和学习忍术",
+        "grade": 1
     },
     "1030": {
         "id": "1030",
-        "name": "毅力坚定",
-        "description": "拥有坚定的毅力，能克服各种困难，但可能会过于固执",
+        "name": "通灵兽契约大师",
+        "description": "与通灵兽签订的契约稳固，通灵兽不会意外死亡",
+        "grade": 2
+    },
+    "1031": {
+        "id": "1031",
+        "name": "穿越后遗症",
+        "description": "穿越过程中身体受损，体质 -2",
+        "grade": 2,
+        "effect": {
+            "STR": -2
+        }
+    },
+    "1032": {
+        "id": "1032",
+        "name": "仓促穿越",
+        "description": "穿越准备不足，所有属性 -1",
+        "grade": 2,
+        "effect": {
+            "SPR": -1,
+            "MNY": -1,
+            "CHR": -1,
+            "STR": -1,
+            "INT": -1
+        }
+    },
+    "1033": {
+        "id": "1033",
+        "name": "濒死体质",
+        "description": "体质极差，体质 -10",
+        "grade": 2,
+        "effect": {
+            "STR": -10
+        }
+    },
+    "1034": {
+        "id": "1034",
+        "name": "家族没落",
+        "description": "家族运势不佳，资金 -2",
+        "grade": 2,
+        "effect": {
+            "MNY": -2
+        }
+    },
+    "1035": {
+        "id": "1035",
+        "name": "脑部损伤",
+        "description": "穿越后脑袋着地，智力 -2",
+        "grade": 2,
+        "effect": {
+            "INT": -2
+        }
+    },
+    "1036": {
+        "id": "1036",
+        "name": "前世记忆",
+        "description": "保留前世知识，智力 +1",
+        "grade": 2,
+        "effect": {
+            "INT": 1
+        }
+    },
+    "1037": {
+        "id": "1037",
+        "name": "忍校红人",
+        "description": "在忍校中和同学容易处好关系",
+        "grade": 1
+    },
+    "1038": {
+        "id": "1038",
+        "name": "骑兽达人",
+        "description": "能轻松学会驾驭忍兽",
+        "grade": 1
+    },
+    "1039": {
+        "id": "1039",
+        "name": "忍界电竞天才",
+        "description": "在忍界电竞方面天赋异禀",
+        "grade": 1
+    },
+    "1040": {
+        "id": "1040",
+        "name": "忍者戒律",
+        "description": "坚守忍者戒律，赌毒不沾",
+        "grade": 1
+    },
+    "1041": {
+        "id": "1041",
+        "name": "无后之志",
+        "description": "一心追求忍道，不生孩子",
+        "grade": 1,
+        "exclusive": [
+            "1113"
+        ]
+    },
+    "1042": {
+        "id": "1042",
+        "name": "特殊血继族人",
+        "description": "拥有特殊血继限界家族血脉，学习忍术有优势",
+        "grade": 2
+    },
+    "1043": {
+        "id": "1043",
+        "name": "护族之运",
+        "description": "家族出行时受神秘力量护佑，不会遭遇危险",
+        "grade": 2
+    },
+    "1044": {
+        "id": "1044",
+        "name": "家族安康",
+        "description": "家族成员心脏强健，不会患心脏病",
+        "grade": 2
+    },
+    "1045": {
+        "id": "1045",
+        "name": "战功显赫",
+        "description": "在忍界战争中战功卓著，退伍后会成为高级忍者官员",
+        "grade": 3
+    },
+    "1046": {
+        "id": "1046",
+        "name": "生育障碍",
+        "description": "天生生育能力缺失，生不出孩子",
+        "grade": 1,
+        "exclusive": [
+            "1113"
+        ]
+    },
+    "1047": {
+        "id": "1047",
+        "name": "伉俪情深",
+        "description": "爱人至少能活到70天，夫妻携手相伴",
+        "grade": 1
+    },
+    "1048": {
+        "id": "1048",
+        "name": "神秘卷轴盒",
+        "description": "100天时才能开启，可能藏有强大忍术",
+        "grade": 3
+    },
+    "1049": {
+        "id": "1049",
+        "name": "三十而立",
+        "description": "30天时资金 +2",
+        "condition": "AGE?[30]",
+        "grade": 2,
+        "effect": {
+            "MNY": 2
+        }
+    },
+    "1050": {
+        "id": "1050",
+        "name": "四十不惑",
+        "description": "40天时智力 +2",
+        "condition": "AGE?[40]",
+        "grade": 2,
+        "effect": {
+            "INT": 2
+        }
+    },
+    "1051": {
+        "id": "1051",
+        "name": "知天命",
+        "description": "50天时智力、精神力 +1",
+        "condition": "AGE?[50]",
+        "grade": 2,
+        "effect": {
+            "SPR": 1,
+            "INT": 1
+        }
+    },
+    "1052": {
+        "id": "1052",
+        "name": "耳顺",
+        "description": "60天时精神力 +2",
+        "condition": "AGE?[60]",
+        "grade": 2,
+        "effect": {
+            "SPR": 2
+        }
+    },
+    "1053": {
+        "id": "1053",
+        "name": "从心所欲",
+        "description": "70天时精神力 +3",
+        "condition": "AGE?[70]",
+        "grade": 2,
+        "effect": {
+            "SPR": 3
+        }
+    },
+    "1054": {
+        "id": "1054",
+        "name": "老当益壮",
+        "description": "60天时体质 +2",
+        "condition": "AGE?[60]",
+        "grade": 2,
+        "effect": {
+            "STR": 2
+        }
+    },
+    "1055": {
+        "id": "1055",
+        "name": "鹤发童颜",
+        "description": "70天时魅力 +3",
+        "condition": "AGE?[70]",
+        "grade": 2,
+        "effect": {
+            "CHR": 3
+        }
+    },
+    "1056": {
+        "id": "1056",
+        "name": "穿越者适应力",
+        "description": "快速适应忍者世界，智力 +2",
+        "condition": "AGE?[5]",
+        "grade": 2,
+        "effect": {
+            "INT": 2
+        }
+    },
+    "1057": {
+        "id": "1057",
+        "name": "十八变",
+        "description": "18天时魅力 +2",
+        "condition": "AGE?[18]",
+        "grade": 2,
+        "effect": {
+            "CHR": 2
+        }
+    },
+    "1058": {
+        "id": "1058",
+        "name": "迟来之财",
+        "description": "90天时资金 +4",
+        "condition": "AGE?[90]",
+        "grade": 2,
+        "effect": {
+            "MNY": 4
+        }
+    },
+    "1059": {
+        "id": "1059",
+        "name": "理财达人",
+        "description": "40天时资金 +3",
+        "condition": "AGE?[40]",
+        "grade": 2,
+        "effect": {
+            "MNY": 3
+        }
+    },
+    "1060": {
+        "id": "1060",
+        "name": "成熟忍者",
+        "description": "18天时智力 +2",
+        "condition": "AGE?[18]",
+        "grade": 2,
+        "effect": {
+            "INT": 2
+        }
+    },
+    "1061": {
+        "id": "1061",
+        "name": "形象管理",
+        "description": "24天时魅力 +2",
+        "condition": "AGE?[24]",
+        "grade": 2,
+        "effect": {
+            "CHR": 2
+        }
+    },
+    "1062": {
+        "id": "1062",
+        "name": "成年礼祝福",
+        "description": "18天时精神力 +1",
+        "condition": "AGE?[18]",
+        "grade": 2,
+        "effect": {
+            "SPR": 1
+        }
+    },
+    "1063": {
+        "id": "1063",
+        "name": "穿越能量残留",
+        "description": "穿越时残留的能量增强，初始可用属性点 +1",
+        "grade": 2,
+        "status": 1
+    },
+    "1064": {
+        "id": "1064",
+        "name": "天命忍者",
+        "description": "初始可用属性点 +8",
+        "grade": 3,
+        "status": 8
+    },
+    "1065": {
+        "id": "1065",
+        "name": "祖传秘药",
+        "description": "功能不明的祖传秘药，或许有奇效",
+        "grade": 1
+    },
+    "1066": {
+        "id": "1066",
+        "name": "忍者救助",
+        "description": "资金为0时资金 +1",
+        "condition": "(MNY<1)&(MNY>-1)",
+        "grade": 2,
+        "effect": {
+            "MNY": 1
+        }
+    },
+    "1067": {
+        "id": "1067",
+        "name": "乐天忍者",
+        "description": "精神力为0时精神力 +1",
+        "condition": "(SPR<1)&(SPR>-1)",
+        "grade": 1,
+        "effect": {
+            "SPR": 1
+        }
+    },
+    "1068": {
+        "id": "1068",
+        "name": "绝境逢生",
+        "description": "体质为0时体质 +1",
+        "condition": "(STR<1)&(STR>-1)",
+        "grade": 2,
+        "effect": {
+            "STR": 1
+        }
+    },
+    "1069": {
+        "id": "1069",
+        "name": "智可生财",
+        "description": "若20天时智力>8，资金 +2",
+        "condition": "(AGE?[20])&(INT>8)",
+        "grade": 2,
+        "effect": {
+            "MNY": 2
+        }
+    },
+    "1070": {
+        "id": "1070",
+        "name": "魅力无双",
+        "description": "若20天时魅力>8，精神力 +2",
+        "condition": "(AGE?[20])&(CHR>8)",
+        "grade": 2,
+        "effect": {
+            "SPR": 2
+        }
+    },
+    "1071": {
+        "id": "1071",
+        "name": "新手保护",
+        "description": "你不会死在穿越中",
+        "grade": 2
+    },
+    "1072": {
+        "id": "1072",
+        "name": "白化忍者",
+        "description": "你不会遭遇忍界特殊枪击类攻击",
+        "grade": 2
+    },
+    "1073": {
+        "id": "1073",
+        "name": "佛宗传承",
+        "description": "考上忍者名校的几率提高",
+        "grade": 2
+    },
+    "1074": {
+        "id": "1074",
+        "name": "悟道忍者",
+        "description": "智力>10时精神力 +3",
+        "condition": "INT>10",
+        "grade": 1,
+        "effect": {
+            "SPR": 3
+        }
+    },
+    "1075": {
+        "id": "1075",
+        "name": "驻颜之术",
+        "description": "体质>10时魅力 +3",
+        "condition": "STR>10",
+        "grade": 2,
+        "effect": {
+            "CHR": 3
+        }
+    },
+    "1076": {
+        "id": "1076",
+        "name": "界限突破",
+        "description": "体质>10时精神力 +3",
+        "condition": "STR>10",
+        "grade": 1,
+        "effect": {
+            "SPR": 3
+        }
+    },
+    "1077": {
+        "id": "1077",
+        "name": "倾城之姿",
+        "description": "魅力>10时精神力 +3",
+        "condition": "CHR>10",
+        "grade": 1,
+        "effect": {
+            "SPR": 3
+        }
+    },
+    "1078": {
+        "id": "1078",
+        "name": "训练有方",
+        "description": "智力>10时体质 +3",
+        "condition": "INT>10",
+        "grade": 2,
+        "effect": {
+            "STR": 3
+        }
+    },
+    "1079": {
+        "id": "1079",
+        "name": "相由心生",
+        "description": "智力>10时魅力 +3",
+        "condition": "INT>10",
+        "grade": 2,
+        "effect": {
+            "CHR": 3
+        }
+    },
+    "1080": {
+        "id": "1080",
+        "name": "智多鑫",
+        "description": "智力>10时资金 +3",
+        "condition": "INT>10",
+        "grade": 2,
+        "effect": {
+            "MNY": 3
+        }
+    },
+    "1081": {
+        "id": "1081",
+        "name": "灵光乍现",
+        "description": "精神力>10时其他属性 +1",
+        "condition": "SPR>10",
+        "grade": 2,
+        "effect": {
+            "MNY": 1,
+            "CHR": 1,
+            "STR": 1,
+            "INT": 1
+        }
+    },
+    "1082": {
+        "id": "1082",
+        "name": "天启之幸",
+        "description": "精神力>10时其他属性 +2",
+        "condition": "SPR>10",
+        "grade": 1,
+        "effect": {
+            "MNY": 2,
+            "CHR": 2,
+            "STR": 2,
+            "INT": 2
+        }
+    },
+    "1083": {
+        "id": "1083",
+        "name": "神谕眷顾",
+        "description": "精神力>10时其他属性 +3",
+        "condition": "SPR>10",
+        "grade": 2,
+        "effect": {
+            "MNY": 3,
+            "CHR": 3,
+            "STR": 3,
+            "INT": 3
+        }
+    },
+    "1084": {
+        "id": "1084",
+        "name": "献祭",
+        "description": "初始可用属性点 -2，精神力 +2",
+        "grade": 2,
+        "status": -2,
+        "effect": {
+            "SPR": 2
+        },
+        "exclusive": [
+            "1122"
+        ]
+    },
+    "1085": {
+        "id": "1085",
+        "name": "幸运牺牲",
+        "description": "初始可用属性点 -3，精神力 +5",
+        "grade": 1,
+        "status": -3,
+        "effect": {
+            "SPR": 5
+        },
+        "exclusive": [
+            "1122"
+        ]
+    },
+    "1086": {
+        "id": "1086",
+        "name": "极限挑战",
+        "description": "初始可用属性点 -10",
+        "grade": 2,
+        "status": -10,
+        "exclusive": [
+            "1122"
+        ]
+    },
+    "1087": {
+        "id": "1087",
+        "name": "富则心安",
+        "description": "资金>10时精神力 +3",
+        "condition": "MNY>10",
+        "grade": 1,
+        "effect": {
+            "SPR": 3
+        }
+    },
+    "1088": {
+        "id": "1088",
+        "name": "忍装整容",
+        "description": "资金>10时魅力 +3",
+        "condition": "MNY>10",
+        "grade": 2,
+        "effect": {
+            "CHR": 3
+        }
+    },
+    "1089": {
+        "id": "1089",
+        "name": "顶级修炼场",
+        "description": "资金>10时体质 +3",
+        "condition": "MNY>10",
+        "grade": 2,
+        "effect": {
+            "STR": 3
+        }
+    },
+    "1090": {
+        "id": "1090",
+        "name": "身残志坚",
+        "description": "体质<0时其他属性 +1",
+        "condition": "STR<0",
+        "grade": 2,
+        "effect": {
+            "SPR": 1,
+            "MNY": 1,
+            "CHR": 1,
+            "INT": 1
+        }
+    },
+    "2001": {
+        "id": "2001",
+        "name": "基础自愈",
+        "description": "具备基础的身体恢复能力",
+        "grade": 2,
+        "effect": {
+            "STR": 1,
+            "INT": 1
+        },
+        "exclusive": [
+            "2007"
+        ],
+        "next_level": "2002"
+    },
+    "2002": {
+        "id": "2002",
+        "name": "快速再生",
+        "description": "伤口愈合速度显著提升",
         "grade": 1,
         "effect": {
             "STR": 2,
-            "INT": -1
+            "INT": 1
         },
         "exclusive": [
-            "1004",
-            "1008",
-            "1013",
-            "1029"
+            "2008"
         ],
-        "2001": {
-            "id": "2001",
-            "name": "基础自愈",
-            "description": "具备基础的身体恢复能力",
-            "grade": 0,
-            "effect": {
-                "STR": 1,
-                "INT": 1
-            },
-            "exclusive": [
-                "2007"
-            ],
-            "next_level": "2002"
+        "next_level": "2003"
+    },
+    "2003": {
+        "id": "2003",
+        "name": "再生",
+        "description": "恢复速度加快",
+        "grade": 2,
+        "effect": {
+            "INT": 2,
+            "SPR": 1
         },
-        "2002": {
-            "id": "2002",
-            "name": "快速再生",
-            "description": "伤口愈合速度显著提升",
-            "grade": 1,
-            "effect": {
-                "STR": 2,
-                "INT": 1
-            },
-            "exclusive": [
-                "2008"
-            ],
-            "next_level": "2003"
+        "exclusive": [
+            "2009"
+        ],
+        "next_level": "2004"
+    },
+    "2004": {
+        "id": "2004",
+        "name": "细胞活性化",
+        "description": "身体细胞活性大幅提升，恢复能力更强",
+        "grade": 3,
+        "effect": {
+            "STR": 3,
+            "SPR": 2
         },
-        "2003": {
-            "id": "2003",
-            "name": "查克拉再生",
-            "description": "查克拉恢复速度加快",
-            "grade": 2,
-            "effect": {
-                "INT": 2,
-                "SPR": 1
-            },
-            "exclusive": [
-                "2009"
-            ],
-            "next_level": "2004"
+        "exclusive": [
+            "2010"
+        ],
+        "next_level": "2005"
+    },
+    "2005": {
+        "id": "2005",
+        "name": "肉体再生",
+        "description": "可快速再生大部分身体组织",
+        "grade": 4,
+        "effect": {
+            "STR": 4,
+            "SPR": 3
         },
-        "2004": {
-            "id": "2004",
-            "name": "细胞活性化",
-            "description": "身体细胞活性大幅提升，恢复能力更强",
-            "grade": 3,
-            "effect": {
-                "STR": 3,
-                "SPR": 2
-            },
-            "exclusive": [
-                "2010"
-            ],
-            "next_level": "2005"
+        "exclusive": [
+            "2011"
+        ],
+        "next_level": "2006"
+    },
+    "2006": {
+        "id": "2006",
+        "name": "不死之身",
+        "description": "几乎拥有不死之身，仅致命伤可造成威胁",
+        "grade": 5,
+        "effect": {
+            "STR": 5,
+            "SPR": 5
         },
-        "2005": {
-            "id": "2005",
-            "name": "肉体再生",
-            "description": "可快速再生大部分身体组织",
-            "grade": 4,
-            "effect": {
-                "STR": 4,
-                "SPR": 3
-            },
-            "exclusive": [
-                "2011"
-            ],
-            "next_level": "2006"
+        "exclusive": [
+            "2012"
+        ]
+    },
+    "2007": {
+        "id": "2007",
+        "name": "忍术感知",
+        "description": "对忍术有基础的感知和理解能力",
+        "grade": 2,
+        "effect": {
+            "INT": 1,
+            "CHR": 1
         },
-        "2006": {
-            "id": "2006",
-            "name": "不死之身",
-            "description": "几乎拥有不死之身，仅致命伤可造成威胁",
-            "grade": 5,
-            "effect": {
-                "STR": 5,
-                "SPR": 5
-            },
-            "exclusive": [
-                "2012"
-            ]
+        "exclusive": [
+            "2001"
+        ],
+        "next_level": "2008"
+    },
+    "2008": {
+        "id": "2008",
+        "name": "忍术理解",
+        "description": "能快速理解普通忍术的原理和应用",
+        "grade": 1,
+        "effect": {
+            "INT": 2,
+            "CHR": 1
         },
-        "2007": {
-            "id": "2007",
-            "name": "忍术感知",
-            "description": "对忍术有基础的感知和理解能力",
-            "grade": 0,
-            "effect": {
-                "INT": 1,
-                "CHR": 1
-            },
-            "exclusive": [
-                "2001"
-            ],
-            "next_level": "2008"
+        "exclusive": [
+            "2002"
+        ],
+        "next_level": "2009"
+    },
+    "2009": {
+        "id": "2009",
+        "name": "忍术专精",
+        "description": "对特定类型的忍术有深入研究",
+        "grade": 2,
+        "effect": {
+            "INT": 3,
+            "SPR": 1
         },
-        "2008": {
-            "id": "2008",
-            "name": "忍术理解",
-            "description": "能快速理解普通忍术的原理和应用",
-            "grade": 1,
-            "effect": {
-                "INT": 2,
-                "CHR": 1
-            },
-            "exclusive": [
-                "2002"
-            ],
-            "next_level": "2009"
+        "exclusive": [
+            "2003"
+        ],
+        "next_level": "2010"
+    },
+    "2010": {
+        "id": "2010",
+        "name": "忍术创造",
+        "description": "具备创造新忍术的能力",
+        "grade": 3,
+        "effect": {
+            "INT": 4,
+            "CHR": 2
         },
-        "2009": {
-            "id": "2009",
-            "name": "忍术专精",
-            "description": "对特定类型的忍术有深入研究",
-            "grade": 2,
-            "effect": {
-                "INT": 3,
-                "SPR": 1
-            },
-            "exclusive": [
-                "2003"
-            ],
-            "next_level": "2010"
+        "exclusive": [
+            "2004"
+        ],
+        "next_level": "2011"
+    },
+    "2011": {
+        "id": "2011",
+        "name": "忍术大师",
+        "description": "忍术造诣达到大师级别，可随意操控各种忍术",
+        "grade": 4,
+        "effect": {
+            "INT": 5,
+            "CHR": 3
         },
-        "2010": {
-            "id": "2010",
-            "name": "忍术创造",
-            "description": "具备创造新忍术的能力",
-            "grade": 3,
-            "effect": {
-                "INT": 4,
-                "CHR": 2
-            },
-            "exclusive": [
-                "2004"
-            ],
-            "next_level": "2011"
+        "exclusive": [
+            "2005"
+        ],
+        "next_level": "2012"
+    },
+    "2012": {
+        "id": "2012",
+        "name": "忍术仙人",
+        "description": "忍术造诣登峰造极，能施展出超越常理的术法",
+        "grade": 5,
+        "effect": {
+            "INT": 7,
+            "CHR": 5
         },
-        "2011": {
-            "id": "2011",
-            "name": "忍术大师",
-            "description": "忍术造诣达到大师级别，可随意操控各种忍术",
-            "grade": 4,
-            "effect": {
-                "INT": 5,
-                "CHR": 3
-            },
-            "exclusive": [
-                "2005"
-            ],
-            "next_level": "2012"
-        },
-        "2012": {
-            "id": "2012",
-            "name": "忍术仙人",
-            "description": "忍术造诣登峰造极，能施展出超越常理的术法",
-            "grade": 5,
-            "effect": {
-                "INT": 7,
-                "CHR": 5
-            },
-            "exclusive": [
-                "2006"
-            ]
-        }
+        "exclusive": [
+            "2006"
+        ]
     }
 }

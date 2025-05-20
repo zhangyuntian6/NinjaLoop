@@ -210,6 +210,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         }
 
         doEvent(eventId) {
+          if (eventId === null) {
+            // Handle case where no event was selected
+            return []; // Return empty array or a default "no event" content if needed
+          }
+
           const {
             effect,
             next,
@@ -231,9 +236,35 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         }
 
         random(events) {
-          return (_crd && weightRandom === void 0 ? (_reportPossibleCrUseOfweightRandom({
-            error: Error()
-          }), weightRandom) : weightRandom)(events.filter(([eventId]) => this._event.check(eventId, this._property)));
+          const validEvents = events.filter(([eventId]) => this._event.check(eventId, this._property));
+
+          if (validEvents.length === 0) {
+            // If no valid events, choose a random event with ID starting with 'RDM'
+            const allRandomEvents = this._event.getRandomEvents(); // Filter out RDM events that have NoRandom: 1
+
+
+            const eligibleRandomEvents = allRandomEvents.filter(eventId => {
+              const eventDetails = this._event.get(eventId);
+
+              return !eventDetails.NoRandom;
+            });
+
+            if (eligibleRandomEvents.length > 0) {
+              const randomIndex = Math.floor(Math.random() * eligibleRandomEvents.length);
+              const randomEventId = eligibleRandomEvents[randomIndex]; // Return just the event ID string for the fallback case
+
+              return randomEventId;
+            } else {
+              // No valid events and no eligible RDM events found.
+              console.warn("No valid events and no eligible RDM events found.");
+              return null; // Return null to indicate no event was selected
+            }
+          } else {
+            // Otherwise, use weightRandom on the valid events
+            return (_crd && weightRandom === void 0 ? (_reportPossibleCrUseOfweightRandom({
+              error: Error()
+            }), weightRandom) : weightRandom)(validEvents);
+          }
         }
 
         talentRandom() {

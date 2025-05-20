@@ -92,9 +92,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           this.talentItems = [];
           this.selectedTalentIndices = [];
           this._talentList = void 0;
-          this._limitSelectedTalentNum = 3;
+          this._limitSelectedTalentNum = 1;
         }
 
+        // Changed to 1
         start() {}
 
         init(talentList) {
@@ -102,7 +103,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           this.talentItemGroup.removeAllChildren();
           this.selectedTalentIndices = [];
           this.talentItems = [];
-          this.tips.string = "\u6700\u591A\u9009\u62E9" + this._limitSelectedTalentNum + "\u4E2A\u5929\u8D4B";
+          this.tips.string = "\u9009\u62E91\u4E2A\u5929\u8D4B"; // Updated tips string
+
           talentList.forEach((talentInfo, index) => {
             var itemNode = instantiate(this.talentItemPrfb);
             itemNode.setParent(this.talentItemGroup);
@@ -119,6 +121,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
         updateCheckButtonState() {
           if (this.selectedTalentIndices.length === this._limitSelectedTalentNum) {
+            // Changed the check
             this.checkButtonLbl.string = "完成";
             this.checkButton.interactable = true;
           } else {
@@ -132,14 +135,15 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           var idx = this.selectedTalentIndices.indexOf(itemIndex);
 
           if (idx >= 0) {
-            this.selectedTalentIndices.splice(idx, 1);
+            this.selectedTalentIndices.splice(idx, 1); // Deselect
           } else {
-            // 超过数量则替换掉上个选择的对象
-            if (this.selectedTalentIndices.length === this._limitSelectedTalentNum) {
-              this.selectedTalentIndices.splice(this._limitSelectedTalentNum - 1, 1);
+            // If already selected, deselect the previous selection
+            if (this.selectedTalentIndices.length > 0) {
+              this.talentItems[this.selectedTalentIndices[0]].setSelected(false);
+              this.selectedTalentIndices = [];
             }
 
-            this.selectedTalentIndices.push(itemIndex);
+            this.selectedTalentIndices.push(itemIndex); // Select
           }
 
           this.talentItems.forEach((item, index) => {

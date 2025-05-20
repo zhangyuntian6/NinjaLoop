@@ -44,7 +44,7 @@
     "105": {
       "id": 105,
       "name": "老了老了",
-      "description": "活到80岁",
+      "description": "活到80天",
       "grade": 0,
       "condition": "HAGE>79",
       "hide": 0,
@@ -53,7 +53,7 @@
     "106": {
       "id": 106,
       "name": "寿比南山",
-      "description": "活到90岁",
+      "description": "活到90天",
       "grade": 1,
       "condition": "HAGE>89",
       "hide": 0,
@@ -62,7 +62,7 @@
     "107": {
       "id": 107,
       "name": "他",
-      "description": "活到100岁",
+      "description": "活到100天",
       "grade": 2,
       "condition": "HAGE>99",
       "hide": 0,
@@ -71,7 +71,7 @@
     "108": {
       "id": 108,
       "name": "劫难",
-      "description": "活到500岁",
+      "description": "活到500天",
       "grade": 3,
       "condition": "HAGE>499",
       "hide": 1,
@@ -629,7 +629,7 @@
     "170": {
       "id": 170,
       "name": "速通玩家",
-      "description": "你活了0岁",
+      "description": "你活了0天",
       "grade": 0,
       "condition": "EVT?[10494]",
       "hide": 0,

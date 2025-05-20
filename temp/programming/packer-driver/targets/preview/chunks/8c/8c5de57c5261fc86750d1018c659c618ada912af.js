@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, clone, checkCondition, Event, id, _crd, _events;
+  var _reporterNs, _cclegacy, clone, checkCondition, Event, id, _crd, _events, _randomEvents;
 
   function _classPrivateFieldLooseBase(receiver, privateKey) { if (!Object.prototype.hasOwnProperty.call(receiver, privateKey)) { throw new TypeError("attempted to use private field on non-instance"); } return receiver; }
 
@@ -32,22 +32,35 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       _cclegacy._RF.push({}, "b1ad8S5yrpNyLB2b+dSbwqq", "event", undefined);
 
       _events = /*#__PURE__*/_classPrivateFieldLooseKey("events");
+      _randomEvents = /*#__PURE__*/_classPrivateFieldLooseKey("randomEvents");
       Event = class Event {
         constructor() {
           Object.defineProperty(this, _events, {
             writable: true,
             value: void 0
           });
+          Object.defineProperty(this, _randomEvents, {
+            writable: true,
+            value: []
+          });
         }
 
+        // Added field
         initial(_ref) {
           var {
             events
           } = _ref;
           _classPrivateFieldLooseBase(this, _events)[_events] = events;
+          _classPrivateFieldLooseBase(this, _randomEvents)[_randomEvents] = []; // Clear previous data if initial is called again
 
           for (var _id in events) {
             var event = events[_id];
+
+            if (_id.startsWith('RDM')) {
+              // Added logic to populate #randomEvents
+              _classPrivateFieldLooseBase(this, _randomEvents)[_randomEvents].push(_id);
+            }
+
             if (!event.branch) continue;
             event.branch = event.branch.map(b => {
               b = b.split(':');
@@ -114,6 +127,44 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             postEvent,
             description
           };
+        }
+
+        getRandomEvents() {
+          // Added method
+          return _classPrivateFieldLooseBase(this, _randomEvents)[_randomEvents];
+        }
+
+        random(events) {
+          var validEvents = events.filter(_ref2 => {
+            var [eventId] = _ref2;
+            return this._event.check(eventId, this._property);
+          });
+
+          if (validEvents.length === 0) {
+            // If no valid events, choose a random event with ID starting with 'RDM'
+            var allRandomEvents = this._event.getRandomEvents(); // Filter out RDM events that have NoRandom: 1
+
+
+            var eligibleRandomEvents = allRandomEvents.filter(eventId => {
+              var eventDetails = this._event.get(eventId);
+
+              return !eventDetails.NoRandom;
+            });
+
+            if (eligibleRandomEvents.length > 0) {
+              var randomIndex = Math.floor(Math.random() * eligibleRandomEvents.length);
+              var randomEventId = eligibleRandomEvents[randomIndex]; // Return just the event ID string for the fallback case
+
+              return randomEventId;
+            } else {
+              // No valid events and no eligible RDM events found.
+              console.warn("No valid events and no eligible RDM events found.");
+              return null; // Return null to indicate no event was selected
+            }
+          } else {
+            // Otherwise, use weightRandom on the valid events
+            return weightRandom(validEvents);
+          }
         }
 
       };

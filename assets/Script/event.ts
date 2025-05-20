@@ -5,11 +5,16 @@ class Event {
     constructor() {}
 
     #events;
+    #randomEvents: string[] = []; // Added field
 
     initial({events}) {
         this.#events = events;
+        this.#randomEvents = []; // Clear previous data if initial is called again
         for(const id in events) {
             const event = events[id];
+            if (id.startsWith('RDM')) { // Added logic to populate #randomEvents
+                this.#randomEvents.push(id);
+            }
             if(!event.branch) continue;
             event.branch = event.branch.map(b=>{
                 b = b.split(':');
@@ -49,6 +54,10 @@ class Event {
                 if(checkCondition(property, cond))
                     return { effect, next, description };
         return { effect, postEvent, description };
+    }
+
+    getRandomEvents() { // Added method
+        return this.#randomEvents;
     }
 
 }

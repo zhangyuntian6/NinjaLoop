@@ -303,7 +303,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
                 return description + (postEvent ? "<br/>" + postEvent : '');
             }
           }).join('<br/>');
-          this.createLifeTrack(track.age + "\u5C81 ", contentText);
+          this.createLifeTrack(track.age + "\u5929 ", contentText);
         }
 
         onLifeEnd() {
